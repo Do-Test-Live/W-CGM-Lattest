@@ -1,0 +1,266 @@
+@import 'theme.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'gab-game.css';
+@import 'gab_banner.css';
+@import 'search-result.css';
+@import 'landing.css';
+@import 'how-to-play.css';
+@import 'simulator.css';
+@import 'tournament.css';
+@import 'winners.css';
+
+.sec_title {
+    margin: 0 0 30px;
+}
+
+.sec_title h2 {
+    color: var(--white-color);
+}
+
+.sec_title p {
+    color: var(--white-color);
+}
+
+a.btn {
+    line-height: 3.3;
+}
+
+/* Pagination */
+.pagination {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pagination li {
+    margin: 0 6px;
+}
+
+.pagination li a {
+    color: #9b9dcf;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.pagination li.active a, .pagination li:hover a {
+    color: var(--white-color);
+}
+
+.btn_arrows img {
+    width: 45px;
+}
+
+/* Slick Dots */
+.slick-dots {
+    display: flex;
+    margin: 20px 0 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots button {
+    display: block;
+    width: 60px;
+    height: 6px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: var(--blur-color10);
+    text-indent: -9999px;
+    transform: skew(-50deg);
+    -webkit-transform: skew(-50deg);
+}
+
+.slick-dots li.slick-active button {
+    background-color: var(--skyeblur-color2);
+    box-shadow: 0 0 10px rgba(164, 207, 255);
+}
+
+.slick-arrow {
+    font-size: 0;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+}
+
+.slick-next {
+    background: url(../../img/front/images/icons/next_button.png) no-repeat;
+    background-size: 100%;
+    right: 28%;
+}
+
+.slick-prev {
+    background: url(../../img/front/images/icons/Prev_button.png) no-repeat;
+    background-size: 100%;
+    left: 28%;
+}
+
+/* Modal Video */
+.modal-backdrop {
+    z-index: 11111;
+}
+
+.modal {
+    z-index: 111111;
+    padding-top: 30px;
+}
+
+.modal-content {
+    border: 0;
+    border-radius: 0;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    opacity: 1 !important;
+    z-index: 11;
+    color: var(--white-color);
+}
+
+.close svg {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 100%;
+}
+
+.close svg path {
+    fill: var(--white-color);
+}
+
+.close:hover svg path {
+    fill: var(--yellow-color);
+}
+
+.modal_video {
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.modal_video iframe {
+    border: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+@media (max-width: 1600px) {
+    .slick-next {
+        right: 20%;
+    }
+
+    .slick-prev {
+        left: 20%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .slick-arrow {
+        width: 50px;
+        height: 50px;
+        z-index: 11;
+    }
+
+    .slick-next {
+        right: 15%;
+    }
+
+    .slick-prev {
+        left: 15%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .slick-next {
+        right: 10%;
+    }
+
+    .slick-prev {
+        left: 10%;
+    }
+}
+
+@media (max-width: 991px) {
+    .slick-dots button {
+        background: #092e8d;
+    }
+
+    .slick-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slick-dots button {
+        width: 30px;
+        height: 4px;
+    }
+
+    .slick-prev {
+        left: 10%;
+    }
+
+    .slick-next {
+        right: 10%;
+    }
+
+    .pagination li {
+        margin: 0 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    .slick-dots button {
+        width: 25px;
+        height: 4px;
+    }
+
+    .slick-prev {
+        left: 15px;
+    }
+
+    .slick-next {
+        right: 15px;
+    }
+
+    .slick-arrow[aria-disabled="true"] {
+        opacity: .5;
+    }
+
+    .pagination li {
+        margin: 0;
+    }
+
+    .pagination li a {
+        padding: 5px 7px;
+        font-size: 16px;
+    }
+
+    .btn_arrows {
+        padding-left: 0 !important;
+    }
+
+    .btn_arrows img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 360px) {
+    .pagination li a {
+        padding: 5px;
+    }
+}
+
