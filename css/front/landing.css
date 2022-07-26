@@ -834,7 +834,6 @@
 .blue_title {background: rgb(1,82,155); background: linear-gradient(90deg, rgba(1,82,155,1) 0%, rgba(44,141,239,1) 55%, rgba(38,134,228,1) 95%); height: 36px; width: 100%; border-radius:20px 20px 0 0;}
 .blue_body {
     padding: 30px 50px 60px;
-    background: url(../../img/front/images/landing/line_patterns.png) repeat-y;
 }
 .blue_body p {color: var(--white-color);}
 .blue_body .btn {position: absolute; bottom: -40px;}
