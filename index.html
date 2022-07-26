@@ -29,12 +29,12 @@
 
             <nav class="navbar main-menu collapse" id="navbarSupportedContent">
                 <ul class="list-unstyled m-0">
-                    <li class=""><a href="#">Lore</a></li>
-                    <li class=""><a href="#">Roadmap</a></li>
-                    <li class=""><a href="#">Collection</a></li>
-                    <li class=""><a href="#">About the founder</a></li>
-                    <li class=""><a href="#">Core team</a></li>
-                    <li class=""><a href="#">About</a></li>
+                    <li class=""><a href="#lore">Lore</a></li>
+                    <li class=""><a href="#roadmap-sec">Roadmap</a></li>
+                    <li class=""><a href="#collection">Collection</a></li>
+                    <li class=""><a href="#about-the-founder">About the founder</a></li>
+                    <li class=""><a href="#core-team">Core team</a></li>
+                    <li class=""><a href="#about">About</a></li>
                 </ul>
             </nav>
             <div class="d-flex btn_menu">
@@ -57,7 +57,7 @@
 
 </header>
 <!-- End Header -->
-<div class="home_banner_sec">
+<div class="home_banner_sec" id="lore">
 
     <div class="h_shapes h_top_center">
         <img src="img/front/images/shapes/cross_shape.png" alt=""/>
@@ -140,7 +140,7 @@
 </div>
 <!-- End Home Banner Sec -->
 
-<section class="invest_sec">
+<section class="invest_sec" id="collection">
 
     <div class="container">
         <div class="invest_wrap">
@@ -272,9 +272,9 @@
 
 </section>
 
-<section class="legenday_sec">
+<section class="legenday_sec" id="about-the-founder">
     <div class="container">
-        <h2><img src="img/front/images/landing/legendary_title.png" class="img-fluid" alt=""/></h2>
+        <h2>About the founder</h2>
 
         <div class="card_sec">
             <div class="blue_box block1">
@@ -311,7 +311,33 @@
             </div>
         </div>
         <!-- End -->
+    </div>
 
+    <div class="globe_pic">
+        <img src="img/front/images/landing/globe.png" alt=""/>
+    </div>
+</section>
+
+<section class="roadmap_sec" id="roadmap-sec">
+    <div class="title_h2 text-center">
+        <h2 class="text-captialize">Our Roadmap</h2>
+    </div>
+    <div class="container mt-3" style="border-radius: 15px">
+        <div class="row">
+            <div class="col-12 roadmap_image" id="roadmap">
+                <a href="#phase-4" class="roadmap-btn-p-4" onmouseover="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase 4</a>
+                <a href="#phase-1" class="roadmap-btn-p-1" onmouseover="hoverInBtn(1)" onmouseout="hoverOutBtn()">Phase 1</a>
+                <a href="#phase-2" class="roadmap-btn-p-2" onmouseover="hoverInBtn(2)" onmouseout="hoverOutBtn()">Phase 2</a>
+                <a href="#phase-3" class="roadmap-btn-p-3" onmouseover="hoverInBtn(3)" onmouseout="hoverOutBtn()">Phase 3</a>
+                <a class="roadmap-btn-medi" onmouseover="hoverInBtn(5)" onmouseout="hoverOutBtn()">Mediverse
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="legenday_sec">
+    <div class="container">
         <div class="row lg_sec_2" id="phase-1">
             <div class="col-lg-6">
                 <div class="blue_box block2">
@@ -483,24 +509,6 @@
     </div>
 </section>
 <!-- End Section -->
-
-<section class="roadmap_sec">
-    <div class="title_h2 text-center">
-        <h2 class="text-captialize">Our Roadmap</h2>
-    </div>
-    <div class="container mt-3" style="border-radius: 15px">
-        <div class="row">
-            <div class="col-12 roadmap_image" id="roadmap">
-                <a href="#phase-4" class="roadmap-btn-p-4" onmouseover="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase 4</a>
-                <a href="#phase-1" class="roadmap-btn-p-1" onmouseover="hoverInBtn(1)" onmouseout="hoverOutBtn()">Phase 1</a>
-                <a href="#phase-2" class="roadmap-btn-p-2" onmouseover="hoverInBtn(2)" onmouseout="hoverOutBtn()">Phase 2</a>
-                <a href="#phase-3" class="roadmap-btn-p-3" onmouseover="hoverInBtn(3)" onmouseout="hoverOutBtn()">Phase 3</a>
-                <a class="roadmap-btn-medi" onmouseover="hoverInBtn(5)" onmouseout="hoverOutBtn()">Mediverse
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="roadmap_sec" style="display: none">
@@ -711,7 +719,7 @@
 </section>
 <!-- End Faq sec -->
 
-<section class="story_sec">
+<section class="story_sec" id="about">
     <div class="gabi_lft"><img src="img/front/images/landing/gabi_lft.png" alt="" class="img-fluid"/></div>
     <div class="gabi_rht"><img src="img/front/images/landing/gabi_rht.png" alt="" class="img-fluid"/></div>
     <div class="story_title text-center">
@@ -747,12 +755,12 @@
 </section>
 <!-- End Story Sec -->
 
-<section class="meet_team_sec">
+<section class="meet_team_sec" id="core-team">
     <div class="container">
         <div class="meet_wrap">
             <div class="title_h2 text-center">
                 <h2>Meet Our Team</h2>
-                <span>We have a team of 8 people working on ArenaMon. Please find below <br/>the list of the main contributors.</span>
+                <span>We have a team of 8 people working on Cows Gone Mad. Please find below <br/>the list of the main contributors.</span>
             </div>
 
             <div class="team_slider">
@@ -841,7 +849,7 @@
             </div>
         </div>
         <div class="text-center join_arena">
-            <h2 class="text-capitalize">Ready To Join The Arena?</h2>
+            <h2 class="text-capitalize">Ready To Join The Cows Gone Mad?</h2>
             <a href="#" class="btn orange_btn_md">JOIN DISCORD</a>
         </div>
     </div>
@@ -855,7 +863,7 @@
                 <div class="footer_top">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="f_logo"><img src="img/front/images/ArenaMon-Logo.png" alt="ArenaMon"/></div>
+                            <div class="f_logo"><img src="img/front/images/ArenaMon-Logo.png" alt="Cows Gone Mad"/></div>
                         </div>
                         <div class="col-lg-6 col-md-8">
                             <div class="get_update">
