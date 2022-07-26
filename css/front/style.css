@@ -323,6 +323,9 @@ a.btn {
     padding: 15px 70px;
     font-size: 25px;
     border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .roadmap-btn-p-1{
@@ -334,6 +337,9 @@ a.btn {
     padding: 15px 70px;
     font-size: 25px;
     border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .roadmap-btn-p-2{
@@ -345,6 +351,9 @@ a.btn {
     padding: 15px 70px;
     font-size: 25px;
     border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .roadmap-btn-p-3{
@@ -357,6 +366,9 @@ a.btn {
     padding: 15px 70px;
     font-size: 25px;
     border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .roadmap-btn-medi{
@@ -369,4 +381,13 @@ a.btn {
     padding: 15px 70px;
     font-size: 25px;
     border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.roadmap-btn-p-1:hover,.roadmap-btn-p-2:hover,.roadmap-btn-p-3:hover,.roadmap-btn-p-4:hover,.roadmap-btn-medi:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

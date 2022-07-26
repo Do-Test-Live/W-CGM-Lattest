@@ -919,7 +919,7 @@
 
 /* Globe */
 .globe_pic{ height:600px; z-index: -1; margin-top:-600px; position: relative ;}
-.globe_pic img {animation: rotate-s-loader 20s linear infinite; width: 100%;}
+.globe_pic img {animation: rotate-s-loader 20s linear infinite; width: 50%;}
 .blue_box ul li p {margin-top: 15px;}
 .block1 .blue_body {position: relative; z-index: 1;}
 
