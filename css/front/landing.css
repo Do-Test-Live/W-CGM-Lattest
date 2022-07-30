@@ -935,7 +935,7 @@
     .title_block:before {
         left: 110px;
     }
-    .lg_sec_2 {padding: 150px 0;}
+    .lg_sec_2 {padding: -px 0;}
     .title_block p {color: var(--blur-color6); padding-left: 100px;}
     .lg_sec_4 { padding:130px 0;}
 }

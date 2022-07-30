@@ -10,6 +10,26 @@
 @import 'tournament.css';
 @import 'winners.css';
 
+@font-face {
+    font-family: 'Cabin'; /*description*/
+    src: url('../../fonts/Cabin-VariableFont_wdth.ttf');
+}
+
+@font-face {
+    font-family: 'Falling-Sky'; /*title*/
+    src: url('../../fonts/FallingSkyBdObl.otf');
+}
+
+@font-face {
+    font-family: 'Oxygen'; /*menu*/
+    src: url('../../fonts/Oxygen-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Screebie'; /*button*/
+    src: url('../../fonts/SCREEBIE-Font.TTF');
+}
+
 .sec_title {
     margin: 0 0 30px;
 }
