@@ -284,6 +284,22 @@ a.btn {
     }
 }
 
+@media (max-width: 600px) {
+    #roadmap{
+        display: none;
+    }
+
+    #mobile-roadmap{
+        display: flex !important;
+        height: 370px;
+        width: 100%;
+        background: url("../../images/roadmap/Map2.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+
+}
+
 
 .roadmap_image{
     height: 800px;
@@ -405,6 +421,9 @@ a.btn {
     color: black;
     font-weight: bold;
 }
+
+
+
 
 .roadmap-btn-p-1:hover,.roadmap-btn-p-2:hover,.roadmap-btn-p-3:hover,.roadmap-btn-p-4:hover,.roadmap-btn-medi:hover{
     text-decoration: none;
