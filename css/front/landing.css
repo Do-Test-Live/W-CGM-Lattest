@@ -841,13 +841,13 @@
 .block1.blue_box { margin-left: auto;}
 
 @media (min-width:1600px){
-    .legenday_sec {padding: 260px 0 200px;}
+    .legenday_sec {padding: 0px 0 200px;}
     .lg_sec_4 .title_block {position: relative; top: 100px; padding-left: 60px;}
     .lg_sec_4 .title_block:before {left: 60px;}
 }
 
 /*  */
-.lg_sec_2 {padding: 100px 0;}
+.lg_sec_2 {padding: 50px 0;}
 .title_block {padding-top:20px; position: relative; padding-left: 30px; z-index: 111;}
 .title_block:before {
     content: '';
