@@ -841,7 +841,7 @@
 .block1.blue_box { margin-left: auto;}
 
 @media (min-width:1600px){
-    .legenday_sec {padding: 0px 0 200px;}
+    .legenday_sec {padding: 160px 0 200px;}
     .lg_sec_4 .title_block {position: relative; top: 100px; padding-left: 60px;}
     .lg_sec_4 .title_block:before {left: 60px;}
 }
@@ -906,7 +906,7 @@
 }
 .gab_pic4 {position: absolute; left: 34%; top: 130px; max-width: 690px;}
 
-.lg_sec_4 .title_block {max-width: 330px; margin: 0 auto;}
+.lg_sec_4 .title_block {max-width: 580px; margin: 0 auto;}
 .lg_sec_4 .title_block p {padding: 0 25px;}
 
 /* Block 5 */
