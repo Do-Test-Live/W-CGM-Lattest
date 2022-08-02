@@ -40,7 +40,7 @@
     width: 0;
     height: 3px;
     border-radius: 0 0 40px 0;
-    background-color: #02e5ff;
+    background-color: #eaab7e;
     transition: width 1s;
     -webkit-transition: width 1s;
 }
@@ -160,7 +160,7 @@
         left: 0;
         width: 100%;
         padding: 10px;
-        background: #c1edff;
+        background: #eaab7e;
         height: calc(100%) !important;
         overflow-x: hidden;
         overflow-y: auto;
@@ -214,4 +214,4 @@
     .btn_menu .btn-white {
         display: none !important;
     }
-}	
+}
