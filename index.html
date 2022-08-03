@@ -38,6 +38,14 @@
             text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
         }
 
+        .header-card-title {
+            font-family: 'Screebie';
+            -webkit-text-stroke: 2px black;
+            -webkit-text-fill-color: white;
+            letter-spacing: 3px;
+            text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+            font-size: 80px;
+        }
 
         .button-text{
             color: white !important;
@@ -46,6 +54,15 @@
             -webkit-text-fill-color: white;
             letter-spacing: 3px;
             text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+        }
+
+        @media (max-width: 767px) {
+            .header-card-title {
+                font-family: 'Screebie';
+                -webkit-text-stroke: 0px black;
+                -webkit-text-fill-color: black;
+                text-shadow: none;
+            }
         }
     </style>
 </head>
@@ -143,19 +160,19 @@
             <ul class="list_unstlyed d-flex service_counter" style="font-family: 'Cabin'">
                 <li>
                     <span>Unique <br class="d-md-none"/>NFTs</span>
-                    <h6 class="header-title">3.5K</h6>
+                    <h6 class="header-card-title">3.5K</h6>
                 </li>
                 <li>
                     <span>3D <br class="d-md-none"/>Characters</span>
-                    <h6 class="header-title">61</h6>
+                    <h6 class="header-card-title">61</h6>
                 </li>
                 <li>
                     <span>Shared <br class="d-md-none"/>Royalties</span>
-                    <h6 class="header-title">50%</h6>
+                    <h6 class="header-card-title">50%</h6>
                 </li>
                 <li>
                     <span>Mint <br class="d-md-none"/>Price</span>
-                    <h6 class="header-title">TBA</h6>
+                    <h6 class="header-card-title">TBA</h6>
                 </li>
                 <li>
                     <a href="#" target="_blank"
@@ -307,8 +324,10 @@
     <div class="container">
         <div class="row lg_sec_2" id="phase-1" style="padding-top: 0px">
             <div class="col-lg-12" style="padding-bottom: 25px">
-                <h2 class="text-captialize h2 header-title" style="text-align: center;">Core Team</h2>
+                <h2 class="text-captialize h2 header-title pt-5" style="text-align: center;">Core Team</h2>
             </div>
+        </div>
+        <div class="row lg_sec_2">
             <div class="col-lg-6">
                 <div class="blue_box block2">
                     <figure class="gab_pic1 m-0"><img src="img/front/images/landing/inves_gabi.png" class="img-fluid"
@@ -445,7 +464,8 @@
             <div class="col-lg-6">
                 <div class="text-left title_block" style="font-family: 'Cabin'">
                     <h2 class="h1 core-team-title ">
-                        Copywriter & Engagement
+                        Copywriter &
+                        <br/>Engagement
                     </h2>
                     <p style="font-size: 25px">
                         Monisha Issano, B.A.
@@ -475,7 +495,7 @@
             <div class="col-lg-4">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
                     <h2 class="h1 core-team-title">
-                        Cartoonist, Illustrator & Artist
+                        Cartoonist, <br/>Illustrator & Artist
                     </h2>
                     <p style="font-size: 25px">
                         Ifran Saeed Qureshi
@@ -587,7 +607,7 @@
             <div class="col-lg-4">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
                     <h2 class="h1 core-team-title ">
-                        Marketing and Project Manager
+                        Marketing and <br/>Project Manager
                     </h2>
                     <p style="font-size: 25px">
                         Tony Olanipekun, BSc
@@ -695,7 +715,7 @@
         <div class="row lg_sec_5" id="phase-4">
             <div class="col-lg-5">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title">Engagement & Marketing
+                    <h2 class="h1 core-team-title">Engagement & <br/>Marketing
                     </h2>
                     <p style="font-size: 25px">
                         Matthew O’Connor
