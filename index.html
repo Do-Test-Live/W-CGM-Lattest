@@ -17,12 +17,31 @@
     <link rel="stylesheet" href="css/front/animate.css" type="text/css">
 
     <style>
-        body, p, div, h1, h2, header, footer, a, span, label, h6, button {
+        body, p, div, h1, h2, header, footer, span, label, h6, a {
             color: #000 !important;
         }
 
         .header-title {
             font-family: 'Screebie';
+            -webkit-text-stroke: 2px black;
+            -webkit-text-fill-color: white;
+            letter-spacing: 3px;
+            text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+            font-size: 80px;
+        }
+
+        .core-team-title {
+            font-family: 'Screebie';
+            -webkit-text-stroke: 1px black;
+            -webkit-text-fill-color: white;
+            letter-spacing: 3px;
+            text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+        }
+
+
+        .button-text{
+            color: white !important;
+            font-size: 25px !important;
             -webkit-text-stroke: 1px black;
             -webkit-text-fill-color: white;
             letter-spacing: 3px;
@@ -44,10 +63,10 @@
 
             <nav class="navbar main-menu collapse" id="navbarSupportedContent">
                 <ul class="list-unstyled m-0" style="font-family: 'Oxygen'">
-                    <li class=""><a href="#collection">Collection</a></li>
                     <li class=""><a href="#lore">Lore</a></li>
-                    <li class=""><a href="#about-the-founder">About the founder</a></li>
                     <li class=""><a href="#roadmap-sec">Roadmap</a></li>
+                    <li class=""><a href="#collection">Collection</a></li>
+                    <li class=""><a href="#about-the-founder">About the founder</a></li>
                     <li class=""><a href="#core-team">Core team</a></li>
                     <li class=""><a href="#about">About</a></li>
                 </ul>
@@ -140,9 +159,9 @@
                 </li>
                 <li>
                     <a href="#" target="_blank"
-                       class="d-none d-md-block text-uppercase btn btn-blue">Join Discord</a>
+                       class="d-none d-md-block text-uppercase btn btn-blue button-text">Join Discord</a>
                     <button id="video_play" data-toggle="modal" data-target="#"
-                            class="d-md-none text-uppercase btn btn-blue"
+                            class="d-md-none text-uppercase btn btn-blue button-text"
                             style="font-family: 'Screebie';letter-spacing: 3px">Join Discord
                     </button>
                 </li>
@@ -194,7 +213,7 @@
         <div class="choose_wrap">
             <div class="choose_wrap" style="font-family: 'Cabin';">
                 <div class="type_title"><h2 class="header-title">Collection</h2></div>
-                <p style="font-family: 'Cabin'">
+                <p style="font-family: 'Cabin';color: white !important;">
                     Cows Gone Mad (CGM) is a collection of Mad Cows living on the Solana Blockchain.
                     <br/><br/>
                     The 3500 cows who survived the great cleansing of Mad Cow Disease have emerged and have been chosen
@@ -202,7 +221,7 @@
 
                 </p>
                 <div class="btn_groups">
-                    <a href="#" target="_blank" class="btn purple-btn"
+                    <a href="#" target="_blank" class="btn purple-btn button-text"
                        style="font-family: 'Screebie';letter-spacing: 3px">Join
                         Twitter </a>
                 </div>
@@ -313,7 +332,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie'">
+                    <h2 class="h1 core-team-title">
                         Founder
                     </h2>
                     <p style="font-size: 25px">
@@ -343,7 +362,7 @@
         <div class="row lg_sec_3" id="phase-2">
             <div class="col-lg-4">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie'">
+                    <h2 class="h1 core-team-title ">
                         Community Inclusion
                     </h2>
                     <p style="font-size: 25px">
@@ -425,7 +444,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie';">
+                    <h2 class="h1 core-team-title ">
                         Copywriter & Engagement
                     </h2>
                     <p style="font-size: 25px">
@@ -455,7 +474,7 @@
         <div class="row lg_sec_3">
             <div class="col-lg-4">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie'">
+                    <h2 class="h1 core-team-title">
                         Cartoonist, Illustrator & Artist
                     </h2>
                     <p style="font-size: 25px">
@@ -536,7 +555,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie';">
+                    <h2 class="h1 core-team-title">
                         Web3 NFT Advisor<br/>
                         Digital Marketer
                     </h2>
@@ -567,7 +586,7 @@
         <div class="row lg_sec_3">
             <div class="col-lg-4">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie'">
+                    <h2 class="h1 core-team-title ">
                         Marketing and Project Manager
                     </h2>
                     <p style="font-size: 25px">
@@ -646,7 +665,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie';">
+                    <h2 class="h1 core-team-title">
                         Developer
                     </h2>
                     <p style="font-size: 25px">
@@ -676,7 +695,7 @@
         <div class="row lg_sec_5" id="phase-4">
             <div class="col-lg-5">
                 <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1" style="font-family: 'Screebie'">Engagement & Marketing
+                    <h2 class="h1 core-team-title">Engagement & Marketing
                     </h2>
                     <p style="font-size: 25px">
                         Matthew O’Connor

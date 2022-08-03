@@ -20,7 +20,7 @@
 	right: 0;
 	top:0;
 	width: 100%;
-	height: 100%; 
+	height: 100%;
 	background: url(../../img/front/images/gabi-game/tb_hdr_pattern.jpg)no-repeat;
 	background-position: right;
 	border-radius: 18px;
@@ -458,7 +458,7 @@
 	.btn_battle a.btn {line-height: 4.1;}
 }
 .btn-blue {
-	background: url(../../img/front/images/gabi-game/blue_btn.png)no-repeat;
+	background: url(../../img/front/images/landing/btn.png)no-repeat;
 	background-size: 100%;
 	color: var(--clr-white);
 	text-align: center;

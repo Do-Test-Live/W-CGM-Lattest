@@ -169,7 +169,7 @@
     font-size: 22px;
     font-weight: 600;
     text-shadow: 1px 3px 3px rgba(226, 78, 0, .5);
-    background: url(../../img/front/images/landing/purple_btn.png) no-repeat;
+    background: url(../../img/front/images/landing/btn.png) no-repeat;
     background-size: 100% 100%;
     width: 300px;
     height: 90px;
@@ -203,7 +203,7 @@
     font-size: 22px;
     font-weight: 700;
     text-shadow: 1px 3px 3px rgba(1, 67, 175, .5);
-    background: url(../../img/front/images/landing/purple_btn.png) no-repeat;
+    background: url(../../img/front/images/landing/blue-btn.png) no-repeat;
     background-size: 100% 100%;
     width: 300px;
     height: 90px;
@@ -773,7 +773,7 @@
     padding: 120px 0;
     margin-top: -50px;
     background: rgb(65, 123, 243);
-    background: linear-gradient(90deg, rgb(249 225 198) 0%, rgb(237 189 153) 50%);
+    background: linear-gradient(115deg, #cfcfcf00 0%, #7f7f7f00 50%);
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -1635,7 +1635,7 @@
 
 /* Legendaries Sec */
 .legenday_sec {
-    background: #f9e1c6;
+    background: #fdf0e7;
     padding: 180px 0;
     margin-top: -50px;
     overflow: hidden;
@@ -1645,7 +1645,7 @@
 
 .legenday_sec::before {
     content: '';
-    background: #f9e1c6 url(../../img/front/images/landing/legency_shapes.png) no-repeat;
+    background: #f8f0ea url(../../img/front/images/landing/legency_shapes.png) no-repeat;
     background-size: 90%;
     background-position: top center;
     position: absolute;
@@ -1667,7 +1667,7 @@
 .blue_box {
     border: 1px solid #eaab7e;
     background: rgb(249 210 184);
-    background: linear-gradient(180deg, rgb(245 206 180) 0%, rgb(249 225 198) 65%);
+    background: linear-gradient(180deg, rgb(232 241 250) 0%, rgb(232 241 250) 65%);
     border-radius: 20px;
     position: relative;
     box-shadow: 1px 10px 5px -4px rgb(249 210 184);
@@ -1700,7 +1700,7 @@
 
 .blue_title {
     background: rgb(1, 82, 155);
-    background: linear-gradient(90deg, rgb(249 225 198) 0%, rgb(249 225 198) 55%, rgb(249 225 198) 95%);
+    background: linear-gradient(90deg, rgb(208 231 255) 0%, rgb(232 241 250) 55%, rgb(211 232 255) 95%);
     height: 36px;
     width: 100%;
     border-radius: 20px 20px 0 0;
@@ -1729,7 +1729,7 @@
 
 @media (min-width: 1600px) {
     .legenday_sec {
-        padding: 160px 0 200px;
+        padding: 160px 0 375px;
     }
 
     .lg_sec_4 .title_block {
