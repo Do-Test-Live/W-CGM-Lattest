@@ -114,7 +114,7 @@
     }
 
     .gab_ban_pic {
-        margin-right: 5%;
+        margin-right: -8%;
     }
 }
 
@@ -773,7 +773,7 @@
     padding: 120px 0;
     margin-top: -50px;
     background: rgb(65, 123, 243);
-    background: linear-gradient(90deg, rgba(65, 123, 243, 1) 0%, rgba(107, 210, 255, 1) 50%);
+    background: linear-gradient(90deg, rgb(249 225 198) 0%, rgb(237 189 153) 50%);
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -836,7 +836,7 @@
     }
 
     .gabimon_slider .slick-dots button {
-        background: #46b4e5;
+        background: #f9e1c6;
         height: 4px;
         width: 100%;
     }
@@ -2460,7 +2460,7 @@
 
 /* RoadMap Sec */
 .roadmap_sec {
-    padding: 120px 0;
+    padding: 180px 0;
     margin-top: -80px;
     z-index: 1;
     background: url(../../img/front/images/landing/roadmap_bg.png) no-repeat;
