@@ -100,7 +100,7 @@
 
 .gab_ban_pic figure img {
     height: auto;
-    width: 100%;
+    width: 85%;
 }
 
 .banner_summary .btn {
@@ -416,7 +416,7 @@
 /* counter_sec */
 .counter_sec {
     position: absolute;
-    bottom: -50px;
+    bottom: -105px;
     left: 0;
     width: 100%;
     z-index: 1;

@@ -5,6 +5,7 @@
     padding: 20px 0;
     transition: all .5s ease-in-out;
     z-index: 11111;
+    background: aliceblue;
 }
 
 .header-sticky {
@@ -78,7 +79,7 @@
 
     /* Hamburger Menu */
     .header__logo img {
-        width: 150px;
+        width: 250px;
     }
 
     .hamburger_menu.opened {
