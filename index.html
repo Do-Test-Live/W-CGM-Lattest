@@ -26,7 +26,7 @@
             -webkit-text-stroke: 2px black;
             -webkit-text-fill-color: white;
             letter-spacing: 3px;
-            text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+            text-shadow: -3px 3px 9px rgba(0, 0, 0, 0.81);
             font-size: 60px;
         }
 
@@ -35,7 +35,7 @@
             -webkit-text-stroke: 1px black;
             -webkit-text-fill-color: white;
             letter-spacing: 3px;
-            text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+            text-shadow: -3px 3px 9px rgba(0, 0, 0, 0.81);
         }
 
         .header-card-title {
@@ -43,17 +43,17 @@
             -webkit-text-stroke: 2px black;
             -webkit-text-fill-color: white;
             letter-spacing: 3px;
-            text-shadow: -3px 3px 9px rgba(0,0,0,0.81);
+            text-shadow: -3px 3px 9px rgba(0, 0, 0, 0.81);
             font-size: 80px;
         }
 
-        .button-text{
+        .button-text {
             color: white !important;
             font-size: 25px !important;
             -webkit-text-stroke: 1px black;
             -webkit-text-fill-color: white;
             letter-spacing: 3px;
-            text-shadow: -3px 3px 9px rgba(0,0,0,1);
+            text-shadow: -3px 3px 9px rgba(0, 0, 0, 1);
         }
 
         @media (max-width: 767px) {
@@ -64,10 +64,64 @@
                 text-shadow: none;
             }
         }
+
+        .carousel .carousel-item {
+            color: #999;
+            overflow: hidden;
+            min-height: 120px;
+            font-size: 13px;
+        }
+
+        .carousel .testimonial {
+            padding: 0 15px 0 60px;
+            position: relative;
+        }
+
+        .carousel .testimonial::before {
+            content: "\201C";
+            font-family: Arial, sans-serif;
+            color: #e2e2e2;
+            font-weight: bold;
+            font-size: 68px;
+            line-height: 54px;
+            position: absolute;
+            left: 15px;
+            top: 0;
+        }
+
+        .carousel .overview b {
+            text-transform: uppercase;
+            color: #1c47e3;
+        }
+
+        .carousel .carousel-indicators {
+            bottom: -40px;
+        }
+
+        .carousel-indicators li, .carousel-indicators li.active {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 1px 3px;
+            box-sizing: border-box;
+        }
+
+        .carousel-indicators li {
+            background: #e2e2e2;
+            border: 4px solid #fff;
+        }
+
+        .carousel-indicators li.active {
+            color: #fff;
+            background: #1c47e3;
+            border: 5px double;
+        }
     </style>
+
 </head>
 
-<h4 style="text-align: center;text-transform: uppercase;margin-top: .5rem;font-family: 'Screebie';letter-spacing: 3px">Join us and get
+<h4 style="text-align: center;text-transform: uppercase;margin-top: .5rem;font-family: 'Screebie';letter-spacing: 3px">
+    Join us and get
     ready</h4>
 <body onload="myCoolSlider();">
 <header class="header">
@@ -110,21 +164,21 @@
 <!-- End Header -->
 <div class="home_banner_sec" id="lore">
 
-<!--    <div class="h_shapes h_top_center">
-        <img src="img/front/images/shapes/cross_shape.png" alt=""/>
-    </div>
-    <div class="h_shapes h_top_right">
-        <img src="img/front/images/shapes/arrow_shape.png" alt=""/>
-    </div>
-    <div class="h_shapes h_btm_right">
-        <img src="img/front/images/shapes/cross_shape.png" alt=""/>
-    </div>
-    <div class="h_shapes h_btm_lft">
-        <img src="img/front/images/shapes/arrow_shape.png" alt=""/>
-    </div>
-    <div class="h_shapes h_btm_center">
-        <img src="img/front/images/shapes/cirle_shape.png" alt=""/>
-    </div>-->
+    <!--    <div class="h_shapes h_top_center">
+            <img src="img/front/images/shapes/cross_shape.png" alt=""/>
+        </div>
+        <div class="h_shapes h_top_right">
+            <img src="img/front/images/shapes/arrow_shape.png" alt=""/>
+        </div>
+        <div class="h_shapes h_btm_right">
+            <img src="img/front/images/shapes/cross_shape.png" alt=""/>
+        </div>
+        <div class="h_shapes h_btm_lft">
+            <img src="img/front/images/shapes/arrow_shape.png" alt=""/>
+        </div>
+        <div class="h_shapes h_btm_center">
+            <img src="img/front/images/shapes/cirle_shape.png" alt=""/>
+        </div>-->
 
     <div class="container pt-5">
 
@@ -176,7 +230,8 @@
                 </li>
                 <li>
                     <a href="#" target="_blank"
-                       class="d-none d-md-block text-uppercase btn purple-btn button-text" style="font-family: 'Screebie';letter-spacing: 3px">Join Discord</a>
+                       class="d-none d-md-block text-uppercase btn purple-btn button-text"
+                       style="font-family: 'Screebie';letter-spacing: 3px">Join Discord</a>
                     <button id="video_play" data-toggle="modal" data-target="#"
                             class="d-md-none text-uppercase btn purple-btn button-text"
                             style="font-family: 'Screebie';letter-spacing: 3px">Join Discord
@@ -191,7 +246,7 @@
 <!-- End Home Banner Sec -->
 <section class="roadmap_sec" id="roadmap-sec">
     <div class="title_h2 text-center pt-5">
-        <h2 class="text-captialize header-title" >Our Roadmap</h2>
+        <h2 class="text-captialize header-title">Our Roadmap</h2>
     </div>
     <div class="container mt-3" style="border-radius: 15px">
         <div class="row">
@@ -323,384 +378,200 @@
 <section class="legenday_sec" style="padding-top: 25px" id="core-team">
     <div class="container">
         <h2 class="text-captialize h2 header-title pt-5" style="text-align: center;">Team</h2>
-        <div class="row lg_sec_2">
-            <div class="col-lg-6">
-                <div class="blue_box block2">
-                    <figure class="gab_pic1 m-0"><img src="img/front/images/landing/inves_gabi.png" class="img-fluid"
-                                                      alt=""/></figure>
-                    <div class="blue_title"></div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Dr. Ricardo Persaud (BTEC HNC, MB BS (Lond), MPHIL, MSB, CBIOL, DOHNS, MARCS (Gen Surg),
-                            FRCS (ORL-HNS), CCT (Otol (UK) is the Head of ENT Department and ENT Consultant at Al Zahra
-                            Hospital, Sharjah, UAE. He is a graduate of the University College London (UCL) Medical
-                            School, UK and has also trained at Harvard University, USA; Queen Mary Hospital, Hong Kong,
-                            China; and Toronto General Hospital, Canada. Over the past 20 years, Dr. Ricardo has focused
-                            on delivering patient-centred care and is dedicated to providing comprehensive care using
-                            the safest and most advanced treatment techniques for his patients. He is a Board certified
-                            Consultant Otorhinolaryngologist where he specialises in the evaluation and treatment of
-                            adult and paediatric patients. Dr. Ricardo’s focus is to ensure that patients are the
-                            priority within his practice.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title">
-                        Founder
-                    </h2>
-                    <p style="font-size: 25px">
-                        Dr.Ricardo Persaud FRCS (ORL-HNS), Consultant ENT Surgeon & Head Of Department
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex">
-                            <li><a href="https://www.ricardopersaud.com" target="_blank"><img
-                                    src="img/front/images/icons/web_icon.png"
-                                    alt="Website"/></a></li>
-                            <li><a href="https://www.youtube.com/c/DrRicardoPersaud" target="_blank"><img
-                                    src="img/front/images/icons/tube_icon.png"
-                                    alt="Youtube"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Block 2 -->
 
-        <div class="row lg_sec_3" id="phase-2">
-            <div class="col-lg-4">
-                <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title ">
-                        Community Inclusion
-                    </h2>
-                    <p style="font-size: 25px">
-                        Rochana Jackson, B.A.
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex justify-content-end">
-                            <li><a href="https://linkedin.com/in/rochanajackson" target="_blank"><img
-                                    src="img/front/images/icons/ld_icon.png"
-                                    alt="Linkedin"/></a></li>
-                            <li><a href="https://Twitter.com/rochanajackson" target="_blank"><img
-                                    src="img/front/images/icons/twt_icon.png"
-                                    alt="Twitter"/></a></li>
-                        </ul>
+        <div id="myCarousel" class="carousel slide pt-5" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <img src="img/front/images/cards/8.png" class="mr-3" alt="">
+                                <div class="media-body">
+                                    <div class="testimonial">
+                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque
+                                            tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                        <p class="overview"><b>Read More</b></p>
+                                        <p class="overview pt-3">
+                                            <b style="font-size: 25px">Paula Wilson</b>
+                                            <br/>
+                                            Media Analyst
+                                        </p>
+                                        <div class="social_media pt-5">
+                                            <ul class="list-unstyled d-flex justify-content-end">
+                                                <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
+                                                        src="img/front/images/icons/twt_icon.png"
+                                                        alt="Twitter" class="icon-img"/></a></li>
+                                                <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a"
+                                                       target="_blank"><img
+                                                        src="img/front/images/icons/ld_icon.png"
+                                                        alt="Linkedin" class="icon-img"/></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <img src="img/front/images/cards/8.png" class="mr-3" alt="">
+                                <div class="media-body">
+                                    <div class="testimonial">
+                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque
+                                            tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                        <p class="overview"><b>Read More</b></p>
+                                        <p class="overview pt-3">
+                                            <b style="font-size: 25px">Paula Wilson</b>
+                                            <br/>
+                                            Media Analyst
+                                        </p>
+                                        <div class="social_media pt-5">
+                                            <ul class="list-unstyled d-flex justify-content-end">
+                                                <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
+                                                        src="img/front/images/icons/twt_icon.png"
+                                                        alt="Twitter" class="icon-img"/></a></li>
+                                                <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a"
+                                                       target="_blank"><img
+                                                        src="img/front/images/icons/ld_icon.png"
+                                                        alt="Linkedin" class="icon-img"/></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-5 offset-lg-2">
-                <div class="blue_box block3">
-                    <figure class="gab_pic2 m-0">
-                        <img src="img/front/images/landing/gab3.png" class="img-fluid d-none d-md-block"/>
-                        <img src="img/front/images/landing/gab3_mobile.png" class="img-fluid d-md-none" alt=""/>
-                        <div class="coin coin5"><img src="img/front/images/landing/coin4.png" class="img-fluid"
-                                                     alt=""/></div>
-                    </figure>
-                    <div class="blue_title"></div>
-                    <div class="coin coin2"><img src="img/front/images/landing/coin2.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="coin coin3"><img src="img/front/images/landing/coin3.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="coin coin4"><img src="img/front/images/landing/coin4.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Rochana is an LSE Politics graduate who has spent almost 10 years working as a global Talent
-                            Acquisition specialist within the media, creative advertising and tech industries.
-                        </p>
-                        <p>
-                            She now works at the tech giant: Meta London as the Global Learning Partner where she is
-                            responsible for activating global sales education programs for multiple cross-functional
-                            audiences within Meta.
-                        </p>
-                        <p>
-                            Rochana is hugely passionate and active in the Diversity, Equity & Inclusion space as well
-                            as
-                            embracing the transformative power that technology - including NFTs, crypto and the
-                            metaverse -
-                            can bring to all sectors.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Block 3 -->
-
-        <div class="row lg_sec_4 position-relative" id="phase-3">
-            <figure class="gab_pic4 m-0"><img src="img/front/images/landing/monster.png" class="img-fluid" alt=""
-                                              style="width: 65%"/>
-            </figure>
-            <div class="col-lg-6">
-                <div class="blue_box">
-                    <div class="blue_title"></div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Monisha Issano graduated from University of Leeds with a BA (International) in Geography and
-                            Sociology. She is currently a 3rd year PhD student of Sociology in Atlanta, Georgia, USA.
-                            Monisha is also a university lecturer, chapter author and copy editor. As a sociologist,
-                            Monisha has a particular interest in the current and future roles of technology in shaping
-                            our social world.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title ">
-                        Copywriter &
-                        <br/>Engagement
-                    </h2>
-                    <p style="font-size: 25px">
-                        Monisha Issano, B.A.
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex">
-                            <li><a href="https://sociology.gsu.edu/profile/monisha-jackson/" target="_blank"><img
-                                    src="img/front/images/icons/web_icon.png"
-                                    alt="Website"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/monisha-jackson-2527a4b2" target="_blank"><img
-                                    src="img/front/images/icons/ld_icon.png"
-                                    alt="Linkedin"/></a></li>
-                        </ul>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <img src="img/front/images/cards/8.png" class="mr-3" alt="">
+                                <div class="media-body">
+                                    <div class="testimonial">
+                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque
+                                            tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                        <p class="overview"><b>Read More</b></p>
+                                        <p class="overview pt-3">
+                                            <b style="font-size: 25px">Paula Wilson</b>
+                                            <br/>
+                                            Media Analyst
+                                        </p>
+                                        <div class="social_media pt-5">
+                                            <ul class="list-unstyled d-flex justify-content-end">
+                                                <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
+                                                        src="img/front/images/icons/twt_icon.png"
+                                                        alt="Twitter" class="icon-img"/></a></li>
+                                                <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a"
+                                                       target="_blank"><img
+                                                        src="img/front/images/icons/ld_icon.png"
+                                                        alt="Linkedin" class="icon-img"/></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <img src="img/front/images/cards/8.png" class="mr-3" alt="">
+                                <div class="media-body">
+                                    <div class="testimonial">
+                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque
+                                            tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                        <p class="overview"><b>Read More</b></p>
+                                        <p class="overview pt-3">
+                                            <b style="font-size: 25px">Paula Wilson</b>
+                                            <br/>
+                                            Media Analyst
+                                        </p>
+                                        <div class="social_media pt-5">
+                                            <ul class="list-unstyled d-flex justify-content-end">
+                                                <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
+                                                        src="img/front/images/icons/twt_icon.png"
+                                                        alt="Twitter" class="icon-img"/></a></li>
+                                                <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a"
+                                                       target="_blank"><img
+                                                        src="img/front/images/icons/ld_icon.png"
+                                                        alt="Linkedin" class="icon-img"/></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- End Block 4 -->
-
-        <div class="row lg_sec_3">
-            <div class="col-lg-4">
-                <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title">
-                        Cartoonist, <br/>Illustrator & Artist
-                    </h2>
-                    <p style="font-size: 25px">
-                        Ifran Saeed Qureshi
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex justify-content-end">
-                            <li><a href="https://www.instagram.com/irfancartoon/" target="_blank"><img
-                                    src="img/front/images/icons/insta_icon.png"
-                                    alt="Instagram"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 offset-lg-2">
-                <div class="blue_box block3">
-                    <figure class="gab_pic2 m-0">
-                        <img src="img/front/images/landing/gab3.png" class="img-fluid d-none d-md-block"/>
-                        <img src="img/front/images/landing/gab3_mobile.png" class="img-fluid d-md-none" alt=""/>
-                        <div class="coin coin5"><img src="img/front/images/landing/coin4.png" class="img-fluid"
-                                                     alt=""/></div>
-                    </figure>
-                    <div class="blue_title"></div>
-                    <div class="coin coin2"><img src="img/front/images/landing/coin2.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="coin coin3"><img src="img/front/images/landing/coin3.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="coin coin4"><img src="img/front/images/landing/coin4.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Ifran is an illustrator and storyboard artist whose strength lies in his versatility with
-                            both traditional and digital media. He creates character designs, caricatures, and cartoons.
-
-                        </p>
-                        <p>
-                            Inspired by comic art and action heroes, Ifran has had a passion for art from a very young
-                            age. He is trained in fine and graphics art from Karachi, Pakistan. Ifran is highly
-                            enthusiastic about the direction Web3 has taken digital art, particularly how it has
-                            provided smaller artists with a platform to exhibit and appeal to a wider audience.
-                        </p>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <img src="img/front/images/cards/8.png" class="mr-3" alt="">
+                                <div class="media-body">
+                                    <div class="testimonial">
+                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque
+                                            tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                        <p class="overview"><b>Read More</b></p>
+                                        <p class="overview pt-3">
+                                            <b style="font-size: 25px">Paula Wilson</b>
+                                            <br/>
+                                            Media Analyst
+                                        </p>
+                                        <div class="social_media pt-5">
+                                            <ul class="list-unstyled d-flex justify-content-end">
+                                                <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
+                                                        src="img/front/images/icons/twt_icon.png"
+                                                        alt="Twitter" class="icon-img"/></a></li>
+                                                <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a"
+                                                       target="_blank"><img
+                                                        src="img/front/images/icons/ld_icon.png"
+                                                        alt="Linkedin" class="icon-img"/></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="media">
+                                <img src="img/front/images/cards/8.png" class="mr-3" alt="">
+                                <div class="media-body">
+                                    <div class="testimonial">
+                                        <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque
+                                            tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                                        <p class="overview"><b>Read More</b></p>
+                                        <p class="overview pt-3">
+                                            <b style="font-size: 25px">Paula Wilson</b>
+                                            <br/>
+                                            Media Analyst
+                                        </p>
+                                        <div class="social_media pt-5">
+                                            <ul class="list-unstyled d-flex justify-content-end">
+                                                <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
+                                                        src="img/front/images/icons/twt_icon.png"
+                                                        alt="Twitter" class="icon-img"/></a></li>
+                                                <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a"
+                                                       target="_blank"><img
+                                                        src="img/front/images/icons/ld_icon.png"
+                                                        alt="Linkedin" class="icon-img"/></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Block 3 -->
 
-        <div class="row lg_sec_4 position-relative">
-            <figure class="gab_pic4 m-0"><img src="img/front/images/landing/monster.png" class="img-fluid" alt=""
-                                              style="width: 65%"/>
-            </figure>
-            <div class="col-lg-6">
-                <div class="blue_box">
-                    <div class="blue_title"></div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Gaetano has been an avid follower and investor of Crypto and Blockchain technology since
-                            late 2013. He has a passion for fintech and global markets as well as other emerging
-                            technologies. Gaetano has been a gamer since the early days of the personal computer and
-                            with the rise of NFTs in late 2020/early 2021, joining this team was a match made in heaven!
-                        </p>
-                        <p>
-                            His background includes working in the IT sector for 4 years before transitioning to the
-                            Online Marketing industry for the past 4 years.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title">
-                        Web3 NFT Advisor<br/>
-                        Digital Marketer
-                    </h2>
-                    <p style="font-size: 25px">
-                        Gaetano De Luca
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex">
-                            <li><a href="https://twitter.com/d0ndeluca" target="_blank"><img
-                                    src="img/front/images/icons/twt_icon.png"
-                                    alt="Twitter"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/tadeluca/" target="_blank"><img
-                                    src="img/front/images/icons/ld_icon.png"
-                                    alt="Linkedin"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Block 4 -->
-
-        <div class="row lg_sec_3">
-            <div class="col-lg-4">
-                <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title ">
-                        Marketing and <br/>Project Manager
-                    </h2>
-                    <p style="font-size: 25px">
-                        Tony Olanipekun, BSc
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex justify-content-end">
-                            <li><a href="https://Twitter.com/Cryptone_Knight" target="_blank"><img
-                                    src="img/front/images/icons/twt_icon.png"
-                                    alt="Twitter"/></a></li>
-                            <li><a href="https://www.linkedin.com/in/tony-olanipekun-a49824a" target="_blank"><img
-                                    src="img/front/images/icons/ld_icon.png"
-                                    alt="Linkedin"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 offset-lg-2">
-                <div class="blue_box block3">
-                    <figure class="gab_pic2 m-0">
-                        <img src="img/front/images/landing/gab3.png" class="img-fluid d-none d-md-block"/>
-                        <img src="img/front/images/landing/gab3_mobile.png" class="img-fluid d-md-none" alt=""/>
-                        <div class="coin coin5"><img src="img/front/images/landing/coin4.png" class="img-fluid"
-                                                     alt=""/></div>
-                    </figure>
-                    <div class="blue_title"></div>
-                    <div class="coin coin2"><img src="img/front/images/landing/coin2.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="coin coin3"><img src="img/front/images/landing/coin3.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="coin coin4"><img src="img/front/images/landing/coin4.png" class="img-fluid" alt=""/>
-                    </div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Co-founder of Jackson James Clothing<br/>
-                            Founder of 360 OM (Digital Marketing Agency)<br/>
-                            Start Up Mentor.
-                        </p>
-                        <p>
-                            Tony brings 24 years of marketing and business start-up experience to the project. Tony has
-                            been in the digital space for a number of years and is the founder of a number of digital
-                            businesses ranging from web based software development companies to digital marketing
-                            agencies.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Block 3 -->
-
-        <div class="row lg_sec_4 position-relative">
-            <figure class="gab_pic4 m-0"><img src="img/front/images/landing/monster.png" class="img-fluid" alt=""
-                                              style="width: 65%"/>
-            </figure>
-            <div class="col-lg-6">
-                <div class="blue_box">
-                    <div class="blue_title"></div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            Elliott is an Engineer, MIET MSc, with 20 years of experience working across a range of
-                            projects in the private sector. During this period, Elliott has developed his skillset,
-                            working as technical lead on projects ranging from R & D on upcoming technologies to design
-                            and build of autonomous vehicles. Elliott's technical expertise and analytical approach are
-                            key to the successful delivery of the roadmap.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="text-left title_block" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title">
-                        Developer
-                    </h2>
-                    <p style="font-size: 25px">
-                        Elliott Clarke
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex">
-                            <li><a href="https://twitter.com/nerd_ell" target="_blank"><img
-                                    src="img/front/images/icons/twt_icon.png"
-                                    alt="Twitter"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Block 4 -->
-
-        <div class="row lg_sec_5" id="phase-4">
-            <div class="col-lg-5">
-                <div class="text-right title_block pl-0" style="font-family: 'Cabin'">
-                    <h2 class="h1 core-team-title">Engagement & <br/>Marketing
-                    </h2>
-                    <p style="font-size: 25px">
-                        Matthew O’Connor
-
-                    </p>
-                    <div class="social_media pt-5">
-                        <ul class="list-unstyled d-flex justify-content-end">
-                            <li><a href="https://twitter.com/beingmootastic" target="_blank"><img
-                                    src="img/front/images/icons/twt_icon.png"
-                                    alt="Twitter"/></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 offset-lg-2">
-                <figure class="gab_pic5 m-0"><img src="img/front/images/landing/mouse_char.png" class="img-fluid"
-                                                  alt=""/></figure>
-                <div class="blue_box block3">
-                    <div class="blue_title"></div>
-                    <div class="blue_body" style="font-family: 'Cabin'">
-                        <p>
-                            With over 15 years of experience in the software development industry, Matthew has worked
-                            across projects including FLARE, SDR and most recently web3. He works closely with our
-                            community to drive marketing initiatives that deliver value, to move our roadmap forward and
-                            to ensure our community is heard. Together we #jointheherd
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Block 3 -->
-
-    </div>
-
-    <div class="globe_pic">
-        <img src="img/front/images/landing/globe.png" alt=""/>
     </div>
 </section>
 <!-- End Section -->
@@ -773,9 +644,11 @@
                         </div>
                         <div class="col-lg-6 col-md-8">
                             <div class="get_update">
-                                <label class="d-md-none" style="font-family: 'Screebie';letter-spacing: 3px">Get Updates!</label>
+                                <label class="d-md-none" style="font-family: 'Screebie';letter-spacing: 3px">Get
+                                    Updates!</label>
                                 <form class="d-flex align-items-center" rel="">
-                                    <label class="d-none d-md-block" style="font-family: 'Screebie';letter-spacing: 3px">Get
+                                    <label class="d-none d-md-block"
+                                           style="font-family: 'Screebie';letter-spacing: 3px">Get
                                         Updates!</label>
                                     <div class="input_field">
                                         <input type="text" placeholder="Coming soon..." class="form-control"/>
