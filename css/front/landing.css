@@ -2056,7 +2056,6 @@
     }
 
     .lg_sec_4 .title_block p {
-        padding-right: 45%;
         padding-left: 0;
     }
 
@@ -2355,7 +2354,7 @@
     }
 
     .gab_pic5 {
-        left: -95px;
+        left: -55px;
         top: auto;
         bottom: -130px;
         max-width: 220px;
