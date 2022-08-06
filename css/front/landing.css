@@ -120,7 +120,7 @@
 
 @media (max-width: 991px) {
     .home_banner_sec {
-        padding: 100px 0;
+        padding: 160px 0;
     }
 }
 
@@ -1728,9 +1728,6 @@
 }
 
 @media (min-width: 1600px) {
-    .legenday_sec {
-        padding: 160px 0 375px;
-    }
 
     .lg_sec_4 .title_block {
         position: relative;
@@ -2002,7 +1999,7 @@
         padding-right: 90px;
     }
 
-    .lg_sec_2, .lg_sec_4 {
+    .lg_sec_2, .lg_sec_4{
         padding: 200px 0;
     }
 
@@ -2208,10 +2205,10 @@
     }
 
     .gab_pic {
-        max-width: 230px;
-        left: -55px;
+        max-width: 290px;
+        left: -100px;
         top: auto;
-        bottom: 0px;
+        bottom: -10px;
     }
 
     .block1 .blue_body, .block2 .blue_body {
