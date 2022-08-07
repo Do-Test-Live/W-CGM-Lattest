@@ -1268,14 +1268,14 @@
     }
 
     .choose_wrap .purple-btn, .type_content .purple-btn {
-        background: url(../../img/front/images/landing/purple_btn_mobile.png) no-repeat;
+        background: url(../../img/front/images/landing/btn.png) no-repeat;
         background-size: 100% 100%;
         width: 100%;
     }
 
     .choose_gabimon_sec {
         background: rgb(74, 143, 246);
-        background: linear-gradient(180deg, rgba(74, 143, 246, 1) 8%, rgba(107, 210, 255, 1) 93%);
+        background: linear-gradient(180deg, rgb(219 226 233) 8%, rgb(252 246 241) 93%);
     }
 
     .choose_gabimon_sec .btn_groups {
@@ -1334,7 +1334,7 @@
     }
 
     .gabimon_slider .slick-dots button {
-        background: #2d92c7;
+        background: #000000;
         height: 7px;
     }
 
@@ -1964,7 +1964,7 @@
 
     .gab_pic {
         max-width: 600px;
-        left: -24%;
+        left: 0%;
         bottom: 0%;
     }
 
@@ -2198,16 +2198,25 @@
     }
 }
 
+.margin-cow-header{
+    margin-bottom: 6rem;
+}
+
 @media (max-width: 767px) {
+
+    .margin-cow-header{
+        margin-bottom: 0rem;
+    }
+
     .legenday_sec {
         padding: 100px 0 160px;
     }
 
     .gab_pic {
-        max-width: 290px;
-        left: -100px;
+        max-width: 120px;
+        left: -15px;
         top: auto;
-        bottom: -10px;
+        bottom: 0px;
     }
 
     .block1 .blue_body, .block2 .blue_body {
@@ -3086,7 +3095,7 @@
     }
 
     .lg_sec_4 {
-        padding-bottom: 100px;
+        padding-bottom: 10px;
     }
 
     .gabimon_slider .item_summary {

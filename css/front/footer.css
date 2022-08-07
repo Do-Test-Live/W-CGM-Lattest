@@ -184,7 +184,7 @@
 
 @media (max-width:767px){
 	.footer {background: url(../../img/front/images/footer_bg_mobile.png) no-repeat; background-size: 100%; background-position: top center; margin-top: -60px; }
-	.footer_contain {padding-bottom: 260px; padding-top: 40px;}
+	.footer_contain {padding-bottom: 60px; padding-top: 40px;}
 	.footer:after {
 		height: 100%;
 		top:auto; bottom: 0;
