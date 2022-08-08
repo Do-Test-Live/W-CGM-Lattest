@@ -1742,7 +1742,7 @@
 
 /*  */
 .lg_sec_2 {
-    padding: 50px 0;
+    padding: 0px 0 50px;
 }
 
 .title_block {
@@ -1774,6 +1774,7 @@
 
 .block2 .blue_body {
     padding-right: 100px;
+    height: 380px;
 }
 
 .gab_pic1 {
@@ -2000,7 +2001,7 @@
     }
 
     .lg_sec_2, .lg_sec_4{
-        padding: 200px 0;
+        padding: 10px 0 120px;
     }
 
     .gab_pic4 {
