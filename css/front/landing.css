@@ -770,7 +770,7 @@
 
 /* Choose Sec  */
 .choose_gabimon_sec {
-    padding: 120px 0;
+    padding: 60px 0 120px;
     margin-top: -50px;
     background: rgb(65, 123, 243);
     background: linear-gradient(115deg, #cfcfcf00 0%, #7f7f7f00 50%);
