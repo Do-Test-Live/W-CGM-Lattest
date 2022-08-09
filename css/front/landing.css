@@ -3167,7 +3167,7 @@
     padding: 50px 0 160px;
     position: relative;
     background: rgb(68, 129, 244);
-    background: linear-gradient(180deg, rgba(68, 129, 244, 1) 20%, rgba(96, 188, 232, 1) 97%);
+    background: linear-gradient(180deg, #7f7f7f 20%, rgb(217 224 232) 97%);
     position: relative;
     z-index: 1;
 }
@@ -3257,7 +3257,7 @@
 }
 
 .team_slider .slick-dots button {
-    background: #2d92c7;
+    background: #9e9e9e;
     height: 7px;
 }
 
