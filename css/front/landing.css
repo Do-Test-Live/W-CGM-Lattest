@@ -310,6 +310,7 @@
 }
 
 @media (max-width: 991px) {
+
     .home_banner_wrap {
         flex-wrap: wrap;
     }
@@ -389,7 +390,7 @@
     }
 
     .banner_summary p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .h_shapes img {
@@ -3391,4 +3392,22 @@
 
 .gabimon_slider.slick-initialized {
     visibility: visible;
+}
+
+.text-style{
+    text-align: justify;
+}
+.owner-img{
+    width: 90%;
+}
+p{
+    font-size: 18px !important;
+}
+@media screen and (max-width: 992px) {
+    .owner-img{
+        width: 100%;
+    }
+    p{
+        font-size: 15px !important;
+    }
 }
