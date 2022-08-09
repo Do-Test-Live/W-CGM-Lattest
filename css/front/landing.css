@@ -3403,6 +3403,9 @@
 p{
     font-size: 18px !important;
 }
+.navbar-background{
+    background-color: #ffffff;
+}
 @media screen and (max-width: 992px) {
     .owner-img{
         width: 100%;
