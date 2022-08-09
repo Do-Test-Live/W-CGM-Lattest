@@ -3167,7 +3167,7 @@
     padding: 50px 0 160px;
     position: relative;
     background: rgb(68, 129, 244);
-    background: linear-gradient(180deg, #7f7f7f 20%, rgb(217 224 232) 97%);
+    background: linear-gradient(180deg, #f9e0c5 20%, rgb(255 207 153) 97%);
     position: relative;
     z-index: 1;
 }
