@@ -177,6 +177,9 @@ a.btn {
     height: 100%;
     left: 0;
 }
+#team-1{
+    height: 390px;
+}
 
 @media (max-width: 1600px) {
     .slick-next {
@@ -239,6 +242,9 @@ a.btn {
 
     .pagination li {
         margin: 0 4px;
+    }
+    #team-1{
+        height: 100%;
     }
 }
 
