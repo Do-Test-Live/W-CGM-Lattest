@@ -1276,7 +1276,7 @@
 
     .choose_gabimon_sec {
         background: rgb(74, 143, 246);
-        background: linear-gradient(180deg, rgb(219 226 233) 8%, rgb(252 246 241) 93%);
+        background: linear-gradient(115deg, #cfcfcf00 0%, #7f7f7f00 50%);
     }
 
     .choose_gabimon_sec .btn_groups {
