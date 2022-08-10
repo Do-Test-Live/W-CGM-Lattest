@@ -1787,7 +1787,7 @@
 
 .title_block p {
     color: var(--blur-color6);
-    padding-left: 90px;
+    /*padding-left: 90px;*/
     margin: 0;
     font-weight: 600;
 }
@@ -1987,7 +1987,7 @@
 
     .title_block p {
         color: var(--blur-color6);
-        padding-left: 100px;
+        /*padding-left: 100px;*/
     }
 
     .lg_sec_4 {
