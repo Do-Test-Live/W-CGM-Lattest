@@ -1646,7 +1646,6 @@
 
 .legenday_sec::before {
     content: '';
-    background: #f8f0ea url(../../img/front/images/landing/legency_shapes.png) no-repeat;
     background-size: 90%;
     background-position: top center;
     position: absolute;
@@ -1781,7 +1780,7 @@
 .gab_pic1 {
     position: absolute;
     right: -255px;
-    top: 30%;
+    top: 0%;
     max-width: 380px;
     z-index: 11;
 }
