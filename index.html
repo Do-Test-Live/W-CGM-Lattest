@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/front/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/front/style.css" type="text/css">
     <link rel="stylesheet" href="css/front/animate.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
     <style>
         body, p, div, h1, h2, header, footer, span, label, h6, a {
@@ -59,7 +60,9 @@
         @media (max-width: 767px) {
             .header-title {
                 text-align: center !important;
+                font-size: 30px;
             }
+
             .header-card-title {
                 font-family: 'Screebie';
                 -webkit-text-stroke: 0px black;
@@ -119,7 +122,10 @@
             background: #1c47e3;
             border: 5px double;
         }
-        #more {display: none;}
+
+        #more {
+            display: none;
+        }
     </style>
 
 </head>
@@ -175,39 +181,39 @@
             <div class="banner_summary">
                 <div class="row">
                     <div class="col-6">
-                        <h2 class="header-title" style="text-align: left !important;">
+                        <h2 class="header-title wow fadeInUp" data-wow-duration="1s" style="text-align: left !important;">
                             Lore
                         </h2>
                     </div>
-                    <div class="col-6 d-flex justify-content-end align-items-end" style="margin-top: -83px">
-                         <img src="img/front/images/landing/CowSmall.png" alt="" >
+                    <div class="col-6 d-flex justify-content-end align-items-end wow fadeInUp" data-wow-duration="2s" style="margin-top: -60px">
+                        <img src="img/front/images/landing/CowSmall.png" alt="">
                     </div>
                 </div>
-                <p class="text-style">“Bovine Spongiform Encephalopathy,” no cow would live to remember the name. Or so it was
+                <p class="text-style wow fadeInLeft" data-wow-duration="2s">“Bovine Spongiform Encephalopathy,” no cow would live to remember the name. Or so it was
                     thought…</p>
-                <p class="text-style">To emerge from the culling, the cleansing, a community thought lost.
+                <p class="text-style wow fadeInLeft" data-wow-duration="2.5s">To emerge from the culling, the cleansing, a community thought lost.
                 </p>
-                <p class="text-style">Those whose destiny chose them, whose purpose had been foretold. The great 3500. Survivors,
+                <p class="text-style wow fadeInLeft" data-wow-duration="3s">Those whose destiny chose them, whose purpose had been foretold. The great 3500. Survivors,
                     the gifted, whose future was destined to create, to educate, to bring… The Mediverse. </p>
 
-                <p class="text-style">Unilateral education, from past to present and what is yet to come. They walk diligently,
+                <p class="text-style wow fadeInLeft" data-wow-duration="3.5s">Unilateral education, from past to present and what is yet to come. They walk diligently,
                     they choose sparingly. “How can you know where you are going if you do not know where you
                     have been?” </p>
-                <p class="text-style">Champions of the Metaverse. They are here and exist to bring the freedom of education before
+                <p class="text-style wow fadeInLeft" data-wow-duration="4s">Champions of the Metaverse. They are here and exist to bring the freedom of education before
                     further actions of ignorance. </p>
-                <p class="text-style">Cows.. Cows Gone MAD!</p>
+                <p class="text-style wow fadeInLeft" data-wow-duration="4.5s">Cows.. Cows Gone MAD!</p>
             </div>
             <!-- End Banner Summary -->
 
             <div class="gab_ban_pic pt-5 text-center margin-cow-header">
-                <figure class="m-0"><img src="images/Cows.png" alt="" class="img-fluid"/>
+                <figure class="m-0"><img src="images/Cows.png" alt="" class="img-fluid wow fadeInRight" data-wow-duration="2s"/>
                 </figure>
             </div>
             <!-- End Banner Pic -->
         </div>
     </div>
     <!-- Start Counter Sec -->
-    <div class="counter_sec">
+    <div class="counter_sec wow fadeInUp" data-wow-duration="2s">
         <div class="container">
             <ul class="list_unstlyed d-flex service_counter" style="font-family: 'Cabin'">
                 <li>
@@ -244,9 +250,9 @@
 <!-- End Home Banner Sec -->
 <section class="roadmap_sec" id="roadmap-sec">
     <div class="title_h2 text-center mt-3 pt-5">
-        <h2 class="text-captialize header-title">Our Roadmap</h2>
+        <h2 class="text-captialize header-title wow fadeInLeft" data-wow-duration="2s">Our Roadmap</h2>
     </div>
-    <div class="container mt-5" style="border-radius: 15px">
+    <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
         <div class="row">
             <div class="col-12 roadmap_image" id="roadmap">
                 <button class="roadmap-btn-p-4" onmouseover="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase
@@ -282,19 +288,19 @@
     <div class="container">
         <div class="choose_wrap">
             <div class="choose_wrap" style="font-family: 'Cabin';">
-                <div class="type_title"><h2 class="header-title">Collection</h2></div>
-                <p style="font-family: 'Cabin';color: black !important;">
+                <div class="type_title"><h2 class="header-title wow fadeInLeft" data-wow-duration="2s">Collection</h2></div>
+                <p class="wow fadeInUp" data-wow-duration="2s" style="font-family: 'Cabin';color: white !important;">
                     Cows Gone Mad (CGM) is a collection of Mad Cows living on the Solana Blockchain.
                     <br/><br/>
                     The 3500 cows who survived the great cleansing of Mad Cow Disease have emerged and have been chosen
                     to bring forth the Mediverse.
 
                 </p>
-                <div class="btn_groups">
+                <div class="btn_groups wow fadeInUp" data-wow-duration="2s">
                     <a href="#" target="_blank"
                        class="d-none d-md-block text-uppercase btn purple-btn button-text"
                        style="font-family: 'Screebie';letter-spacing: 3px">Join Discord</a>
-                    <button  data-toggle="modal" data-target="#"
+                    <button data-toggle="modal" data-target="#"
                             class="d-md-none text-uppercase btn purple-btn button-text"
                             style="font-family: 'Screebie';letter-spacing: 3px">Join Discord
                     </button>
@@ -303,7 +309,7 @@
         </div>
         <!-- End left sec -->
 
-        <div class="gab_block gabimon_slider">
+        <div class="gab_block gabimon_slider wow fadeIn" data-wow-duration="4s">
             <div class="other_items cd_item">
                 <div class="other_box">
                     <img src="img/front/images/cards/8.png" alt=""/>
@@ -343,9 +349,9 @@
 
 <section class="roadmap_sec" id="about-the-founder">
     <div class="container" style="font-family: 'Cabin'">
-        <h2 class="header-title" style="text-align: right">About the founder</h2>
+        <h2 class="header-title wow fadeInRight" data-wow-duration="2s" style="text-align: right">About the founder</h2>
 
-        <div class="card_sec">
+        <div class="card_sec wow fadeInLeft" data-wow-duration="2s">
             <div class="blue_box block1">
                 <figure class="gab_pic m-0"><img src="img/front/images/landing/legendary_cartoon.png"
                                                  class="img-fluid owner-img" alt=""/></figure>
@@ -380,12 +386,12 @@
 <section class="meet_team_sec" id="core-team" style="margin-top: -26px;">
     <div class="container">
         <div class="meet_wrap">
-            <div class="title_h2 text-center">
-                <h2 class="text-captialize h2 header-title pt-5" style="text-align: center;">Team</h2>
+            <div class="title_h2 text-center wow fadeInUp" data-wow-duration="2s">
+                <h2 class="text-captialize h2 header-title" style="text-align: center;">Team</h2>
                 <span style="font-weight: bold">We have a team of 8 people working on Cows Gone Mad. Please find below <br/>the list of the main contributors.</span>
             </div>
 
-            <div class="team_slider">
+            <div class="team_slider wow fadeInUp" data-wow-duration="3s">
                 <div class="team_items">
                     <div class="team_card">
                         <figure><img src="img/front/images/landing/team/team1.png" alt="Team member"/></figure>
@@ -466,15 +472,15 @@
                 </div>
             </div>
         </div>
-        <div class="text-center join_arena mb-4">
+        <div class="text-center join_arena mb-4 wow fadeInUp" data-wow-duration="2s">
             <h4 class="text-capitalize">Ready To Read More about our team members?</h4>
             <div class="d-flex justify-content-center align-items-center">
                 <a href="team.html" target="_blank"
                    class="d-none d-md-block text-uppercase btn purple-btn button-text"
                    style="font-family: 'Screebie';letter-spacing: 3px">Read More</a>
-                <button  onclick="location.href='team.html'"
-                         class="d-md-none text-uppercase btn purple-btn button-text"
-                         style="font-family: 'Screebie';letter-spacing: 3px">Read More
+                <button onclick="location.href='team.html'"
+                        class="d-md-none text-uppercase btn purple-btn button-text"
+                        style="font-family: 'Screebie';letter-spacing: 3px">Read More
                 </button>
             </div>
         </div>
@@ -482,13 +488,13 @@
 </section>
 
 <section class="story_sec" id="about">
-    <div class="gabi_lft"><img src="img/front/images/landing/gabi_lft.png" id="left" alt="" class="img-fluid"/></div>
-    <div class="gabi_rht"><img src="img/front/images/landing/gabi_rht.png" id="right" alt="" class="img-fluid"/></div>
-    <div class="story_title text-center">
-        <h2 class="header-title">About CGM</h2>
+    <div class="gabi_lft wow fadeInLeft" data-wow-duration="2s"><img src="img/front/images/landing/gabi_lft.png" id="left" alt="" class="img-fluid"/></div>
+    <div class="gabi_rht wow fadeInRight" data-wow-duration="2s"><img src="img/front/images/landing/gabi_rht.png" id="right" alt="" class="img-fluid"/></div>
+    <div class="story_title text-center wow fadeInUp" data-wow-duration="2s">
+        <h2 class="header-title wow fadeInUp" data-wow-duration="2s">About CGM</h2>
     </div>
     <div class="story_inner">
-        <div class="container" style="font-family: 'Cabin'">
+        <div class="container wow fadeInUp" data-wow-duration="2s" style="font-family: 'Cabin'">
             <div class="story_wrap">
                 <p style="text-align: justify">
                     Cows Gone Mad is a NFT project centred around Mad Cow Disease (Bovine Spongiform Encephalopathy,
@@ -497,7 +503,6 @@
                     Creutzfeldt-Jakob Disease (vCJD) in the 1990s. These outbreaks resulted in the culling of 4.4
                     million
                     cows and the deaths of 177 people.<span id="dots">....</span>
-
 
 
                     <span id="more"><br> The outbreak of BSE was due to the practice of adding extra protein to cattle feed, in the form of
@@ -523,7 +528,9 @@
                     in short-term gains such as enhanced milk production, but serious long-term consequences,
                     specifically
                     the death of affected cows and humans.</span>
-                    <spna onclick="myFunction()" id="myBtn" style="font-weight: bold; color: blue; cursor: pointer;" ><br>Read More</spna>
+                    <spna onclick="myFunction()" id="myBtn" style="font-weight: bold; color: blue; cursor: pointer;">
+                        <br>Read More
+                    </spna>
                 </p>
             </div>
         </div>
@@ -600,6 +607,10 @@
 <script src="js/front/slick/slick.min.js"></script>
 <script src="js/front/main.js"></script>
 <script defer="" src="https://www.youtube.com/iframe_api"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script type="text/javascript">
     $('body').on('click', '#myVideo .play_btn', function () {
         $(".video")[0].src += "&autoplay=1";

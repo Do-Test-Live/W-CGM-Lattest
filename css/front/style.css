@@ -293,7 +293,7 @@ a.btn {
         display: flex !important;
         height: 240px;
         width: 100%;
-        background: url("../../images/roadmap/Map2.png") no-repeat;
+        background: url("../../images/roadmap/mobileMap.png") no-repeat;
         background-size: 100%;
         position: relative;
     }
