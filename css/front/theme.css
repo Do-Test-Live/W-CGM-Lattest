@@ -50,7 +50,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    background: radial-gradient(circle, rgb(248, 219, 186) 0%, rgba(253, 240, 231, 1) 100%);
     font-size: var(--f16);
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -137,7 +137,7 @@ h6, .h6 {
     }
 
     h1, .h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     h2, .h2 {
