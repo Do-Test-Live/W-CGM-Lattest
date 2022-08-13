@@ -181,9 +181,10 @@
 
         <div class="d-flex position-relative justify-content-md-end home_banner_wrap">
             <div class="banner_summary wow fadeInLeft" data-wow-duration="2s">
-                <h1 class="h2" style="text-transform: capitalize; font-family: 'Screebie'; letter-spacing: 5px;">Welcome to<br>The Website of this<br>new and exciting<br> NFT project - CowsGoneMad.
+                <h1 class="h2" style="text-transform: capitalize; font-family: 'Screebie'; letter-spacing: 5px;">Welcome to <br> Cows Gone Mad NFT
                 </h1>
-                <p style="font-family: 'Cabin'; font-weight: bold;">Fifteen of the 3500 NFTs will be airdropped free to lucky winners of the a short quiz on mad cow disease (bovine spongiform encephalopathy, BSE) presented at the end of this website.</p>
+                <p style="font-family: 'Cabin'; font-weight: bold;">Cows Gone Mad (CGM) is a collection of Mad Cows living on the Solana Blockchain.</p>
+                <p style="font-family: 'Cabin'; font-weight: bold;">The 3500 cows who survived the great cleansing of Mad Cow Disease have emerged and have been chosen to bring forth the Mediverse.</p>
 
             </div>
             <!-- End Banner Summary -->
@@ -267,7 +268,7 @@
     <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
         <div class="row">
             <div class="col-12 roadmap_image" id="roadmap">
-                <button class="roadmap-btn-p-4" onclick="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase
+                <button class="roadmap-btn-p-4" onmouseover="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase
                     4
                 </button>
                 <button class="roadmap-btn-p-1" onmouseover="hoverInBtn(1)" onmouseout="hoverOutBtn()">Phase
@@ -284,22 +285,22 @@
                 <button class="roadmap-btn-medi" onmouseover="hoverInBtn(5)" onmouseout="hoverOutBtn()">Mediverse
                 </button>
             </div>
-            <div class="col-12" style="display: none" id="mobile-roadmap">
-                <button class="roadmap-mobile-btn-p-4" onmouseover="hoverInBtnMobile(4)" onmouseout="hoverOutBtn()">Phase
+            <div class="col-12 mobile-roadmap" style="display: none" id="mobile-roadmap">
+                <button class="roadmap-mobile-btn-p-4" onmouseover="hoverInBtnMobile(4)" onmouseout="hoverOutMobileBtn()">Phase
                     4
                 </button>
-                <button class="roadmap-mobile-btn-p-1" onmouseover="hoverInBtnMobile(1)" onmouseout="hoverOutBtn()">Phase
+                <button class="roadmap-mobile-btn-p-1" onmouseover="hoverInBtnMobile(1)" onmouseout="hoverOutMobileBtn()">Phase
                     1
                 </button>
-                <button href="#phase-2" class="roadmap-mobile-btn-p-2" onmouseover="hoverInBtnMobile(2)" onmouseout="hoverOutBtn()">
+                <button href="#phase-2" class="roadmap-mobile-btn-p-2" onmouseover="hoverInBtnMobile(2)" onmouseout="hoverOutMobileBtn()">
                     Phase
                     2
                 </button>
-                <button href="#phase-3" class="roadmap-mobile-btn-p-3" onmouseover="hoverInBtnMobile(3)" onmouseout="hoverOutBtn()">
+                <button href="#phase-3" class="roadmap-mobile-btn-p-3" onmouseover="hoverInBtnMobile(3)" onmouseout="hoverOutMobileBtn()">
                     Phase
                     3
                 </button>
-                <button class="roadmap-mobile-btn-medi" onmouseover="hoverInBtnMobile(5)" onmouseout="hoverOutBtn()">Mediverse
+                <button class="roadmap-mobile-btn-medi" onmouseover="hoverInBtnMobile(5)" onmouseout="hoverOutMobileBtn()">Mediverse
                 </button>
             </div>
         </div>
@@ -369,7 +370,7 @@
         </div>
         &lt;!&ndash; End  &ndash;&gt;-->
         <div class="type_title text-center"><h2 class="header-title wow fadeInLeft" data-wow-duration="2s">Collection</h2></div>
-        <div class="container-fluid mt-5">
+        <div class="container-fluid mt-3">
             <div class="swiper-container swiper--top">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="images/slider/1.png" class="slider-image-size" alt=""/></div>
@@ -447,7 +448,7 @@
         <div class="meet_wrap">
             <div class="title_h2 text-center wow fadeInUp" data-wow-duration="2s">
                 <h2 class="text-captialize h2 header-title" style="text-align: center;">Team</h2>
-                <span style="font-weight: bold">We have a team of 8 people working on Cows Gone Mad. Please find below <br/>the list of the main contributors.</span>
+                <!--<span style="font-weight: bold">We have a team of 8 people working on Cows Gone Mad. Please find below <br/>the list of the main contributors.</span>-->
             </div>
 
             <div class="team_slider wow fadeInUp" data-wow-duration="3s">
@@ -638,12 +639,19 @@
 
 
             <span id="more">
-
                     <br>Mad Cow Disease taught us that feeding dairy cows with MBM had a twofold effect. This process
                     resulted
                     in short-term gains such as enhanced milk production, but serious long-term consequences,
                     specifically
-                    the death of affected cows and humans.</span>
+                    the death of affected cows and humans.<br>
+                    Works Cited:<br>
+                    O’Flynn, P., Silva, S., Kothari, P., & Persaud, R.
+                    (2007). A Multicentre Audit of Single-Use Surgical
+                    Instruments (SUSI) for Tonsillectomy and
+                    Adenoidectomy. Annals of The Royal College of
+                    Surgeons of England, 89(6), 616–623.
+                    <a href="https://doi.org/10.1308/003588407X205350" style="color: blue !important">https://doi.org/10.1308/003588407X205350</a>
+            </span>
             <spna onclick="myFunction()" id="myBtn" style="font-weight: bold; color: blue; cursor: pointer;">
                 <br>Read More
             </spna>
@@ -777,13 +785,15 @@
     function hoverInBtn(value) {
         document.getElementById("roadmap").className = 'col-12 roadmap_image-' + value;
     }
-
-    function hoverInBtnMobile(value) {
-        document.getElementById("mobile-roadmap").className = 'col-12 roadmap_image-' + value;
-    }
     function hoverOutBtn() {
         document.getElementById("roadmap").className = 'col-12 roadmap_image';
     }
+
+    function hoverInBtnMobile(value) {
+        document.getElementById("mobile-roadmap").className = 'col-12 mobile-roadmap-' + value;
+    }
+
+
 </script>
 <script>
     function myFunction() {

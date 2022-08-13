@@ -295,7 +295,7 @@ a.btn {
         display: none;
     }
 
-    #mobile-roadmap{
+    .mobile-roadmap{
         display: flex !important;
         height: 240px;
         width: 100%;
@@ -303,6 +303,47 @@ a.btn {
         background-size: 100%;
         position: relative;
     }
+    .mobile-roadmap-4{
+        display: flex !important;
+        height: 240px;
+        width: 100%;
+        background: url("../../images/roadmap/map-4.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .mobile-roadmap-1{
+        display: flex !important;
+        height: 240px;
+        width: 100%;
+        background: url("../../images/roadmap/map-1.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .mobile-roadmap-2{
+        display: flex !important;
+        height: 240px;
+        width: 100%;
+        background: url("../../images/roadmap/map-2.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .mobile-roadmap-3{
+        display: flex !important;
+        height: 240px;
+        width: 100%;
+        background: url("../../images/roadmap/map-3.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .mobile-roadmap-5{
+        display: flex !important;
+        height: 240px;
+        width: 100%;
+        background: url("../../images/roadmap/map-5.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+
 
 }
 

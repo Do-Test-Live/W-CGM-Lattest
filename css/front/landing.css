@@ -756,8 +756,8 @@
     }
 
     .dragon_pic {
-        max-width: 260px;
-        bottom: -41px;
+        max-width: 190px;
+        bottom: -51px;
         right: -10%;
     }
 }
@@ -1247,7 +1247,7 @@
     }
 
     .choose_gabimon_sec {
-        padding: 100px 0 260px;
+        padding: 100px 0 146px;
     }
 }
 
@@ -2253,6 +2253,7 @@
     .title_block .h1 {
         font-size: 30px;
         text-align: left;
+        line-height: 1.5;
     }
 
     .title_block p {
