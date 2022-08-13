@@ -299,7 +299,7 @@ a.btn {
         display: flex !important;
         height: 240px;
         width: 100%;
-        background: url("../../images/roadmap/mobileMap.png") no-repeat;
+        background: url("../../images/roadmap/Map2.png") no-repeat;
         background-size: 100%;
         position: relative;
     }
@@ -322,6 +322,7 @@ a.btn {
     background-size: cover;
     position: relative;
 }
+
 
 .roadmap_image-1{
     height: 800px;
@@ -506,3 +507,75 @@ a.btn {
         background-position: 100% 0;
     }
 }
+
+.roadmap-mobile-btn-p-1{
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 11px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.roadmap-mobile-btn-p-4{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: rotate(324deg);
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 11px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.roadmap-mobile-btn-p-3{
+    position: absolute;
+    right: 12%;
+    bottom: 36%;
+    transform: rotate(328deg);
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 11px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.roadmap-mobile-btn-medi{
+    position: absolute;
+    right: 44%;
+    bottom: 44%;
+    transform: rotate(401deg);
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 11px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.roadmap-mobile-btn-p-2{
+    position: absolute;
+    left: 6%;
+    bottom: 14%;
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 11px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+

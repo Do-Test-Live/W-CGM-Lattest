@@ -267,7 +267,7 @@
     <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
         <div class="row">
             <div class="col-12 roadmap_image" id="roadmap">
-                <button class="roadmap-btn-p-4" onmouseover="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase
+                <button class="roadmap-btn-p-4" onclick="hoverInBtn(4)" onmouseout="hoverOutBtn()">Phase
                     4
                 </button>
                 <button class="roadmap-btn-p-1" onmouseover="hoverInBtn(1)" onmouseout="hoverOutBtn()">Phase
@@ -285,7 +285,22 @@
                 </button>
             </div>
             <div class="col-12" style="display: none" id="mobile-roadmap">
-
+                <button class="roadmap-mobile-btn-p-4" onmouseover="hoverInBtnMobile(4)" onmouseout="hoverOutBtn()">Phase
+                    4
+                </button>
+                <button class="roadmap-mobile-btn-p-1" onmouseover="hoverInBtnMobile(1)" onmouseout="hoverOutBtn()">Phase
+                    1
+                </button>
+                <button href="#phase-2" class="roadmap-mobile-btn-p-2" onmouseover="hoverInBtnMobile(2)" onmouseout="hoverOutBtn()">
+                    Phase
+                    2
+                </button>
+                <button href="#phase-3" class="roadmap-mobile-btn-p-3" onmouseover="hoverInBtnMobile(3)" onmouseout="hoverOutBtn()">
+                    Phase
+                    3
+                </button>
+                <button class="roadmap-mobile-btn-medi" onmouseover="hoverInBtnMobile(5)" onmouseout="hoverOutBtn()">Mediverse
+                </button>
             </div>
         </div>
     </div>
@@ -763,6 +778,9 @@
         document.getElementById("roadmap").className = 'col-12 roadmap_image-' + value;
     }
 
+    function hoverInBtnMobile(value) {
+        document.getElementById("mobile-roadmap").className = 'col-12 roadmap_image-' + value;
+    }
     function hoverOutBtn() {
         document.getElementById("roadmap").className = 'col-12 roadmap_image';
     }
