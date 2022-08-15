@@ -24,109 +24,99 @@
             color: #000 !important;
         }
 
-        .header-title {
-            font-family: 'Screebie';
-            -webkit-text-stroke: 2px black;
-            -webkit-text-fill-color: white;
-            letter-spacing: 3px;
-            text-shadow: -5px 5px 1px rgba(0, 0, 0, 0.45);
-            font-size: 50px;
+        .roadmap-image {
+            display: flex !important;
+            width: 100%;
+            background: url("images/roadmap/Map2.png") no-repeat;
+
         }
 
-        .core-team-title {
-            font-family: 'Screebie';
-            -webkit-text-stroke: 1px black;
-            -webkit-text-fill-color: white;
-            letter-spacing: 3px;
-            text-shadow: -5px 5px 1px rgba(0, 0, 0, 0.45);
+        .phase-section {
+            width: 100%;
+            background-color: rgba(253, 240, 231, 0.89);
+            border: #3d3d3d 5px solid;
+            border-radius: 100px;
+            margin: 50px 50px -100px;
         }
 
-        .header-card-title {
-            font-family: 'Screebie';
-            -webkit-text-stroke: 2px black;
-            -webkit-text-fill-color: white;
-            letter-spacing: 3px;
-            text-shadow: -5px 5px 1px rgba(0, 0, 0, 0.45);
-            font-size: 80px;
-        }
-
-        .button-text {
+        .phase-title {
+            padding-left: 7rem !important;
             color: white !important;
-            font-size: 25px !important;
-            -webkit-text-stroke: 1px black;
-            -webkit-text-fill-color: white;
-            letter-spacing: 3px;
-            text-shadow: -5px 5px 1px rgba(0, 0, 0, 0.45);
+            border-bottom: #3d3d3d 15px solid;
+            width: 85%;
+        }
+
+        .phase-section::before {
+            content: '';
+            height: 80%;
+            border-left: solid 15px #3d3d3d;
+            position: absolute;
+            top: 100px;
+            left: 170px;
+            z-index: 1;
+        }
+
+        .phase-content {
+            margin-left: 7rem !important;
+            background: #e7f0f9;
+            margin-top: -0.5rem;
+            width: 80%;
+        }
+
+        ul.a{
+            list-style-type: circle;
+            color: #ffffff;
+            font-size: 25px;
+            text-shadow: 0px 2px 0px black;
+            font-weight: bold;
+        }
+
+        .list-green{
+            background: #e1efd8;
+            padding: 15px;
+            border-radius: 25px;
+            border: 2px solid black;
+        }
+
+        ::marker {
+            color: #000000;
+        }
+
+        .phase-2-picture{
+            margin-top: -150px;
+            margin-left: -85px;
         }
 
         @media (max-width: 767px) {
-            .header-title {
-                text-align: center !important;
-                font-size: 30px;
+            .phase-title {
+                padding-left: 2rem !important;
+                color: white !important;
+                border-bottom: #3d3d3d 15px solid;
+                width: 85%;
             }
 
-            .header-card-title {
-                font-family: 'Screebie';
-                -webkit-text-stroke: 0px black;
-                -webkit-text-fill-color: black;
-                text-shadow: none;
+            .phase-section::before {
+                content: '';
+                height: 80%;
+                border-left: solid 15px #3d3d3d;
+                position: absolute;
+                top: 100px;
+                left: 107px;
+                z-index: 1;
             }
-        }
 
-        .carousel .carousel-item {
-            color: #999;
-            overflow: hidden;
-            min-height: 120px;
-            font-size: 13px;
-        }
+            .phase-content {
+                margin-left: 3rem !important;
+                background: #e7f0f9;
+                margin-top: 0rem;
+                width: 80%;
+                margin-bottom: 3rem !important;
+            }
 
-        .carousel .testimonial {
-            padding: 0 15px 0 60px;
-            position: relative;
-        }
-
-        .carousel .testimonial::before {
-            content: "\201C";
-            font-family: Arial, sans-serif;
-            color: #e2e2e2;
-            font-weight: bold;
-            font-size: 68px;
-            line-height: 54px;
-            position: absolute;
-            left: 15px;
-            top: 0;
-        }
-
-        .carousel .overview b {
-            text-transform: uppercase;
-            color: #1c47e3;
-        }
-
-        .carousel .carousel-indicators {
-            bottom: -40px;
-        }
-
-        .carousel-indicators li, .carousel-indicators li.active {
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            margin: 1px 3px;
-            box-sizing: border-box;
-        }
-
-        .carousel-indicators li {
-            background: #e2e2e2;
-            border: 4px solid #fff;
-        }
-
-        .carousel-indicators li.active {
-            color: #fff;
-            background: #1c47e3;
-            border: 5px double;
-        }
-
-        #more {
-            display: none;
+            .phase-2-picture{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
         }
     </style>
 
@@ -160,7 +150,8 @@
                 <button class="navbar-toggle hamburger_menu" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation"
-                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" id="mobile-menu">
+                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                        id="mobile-menu">
                     <svg width="100" height="100" viewBox="0 0 100 100">
                         <path class="line line1"
                               d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
@@ -176,67 +167,39 @@
 </header>
 
 
-
-<section class="roadmap_sec mt-5 pt-5" id="phase-1">
-    <div class="title_h2 text-center mt-5 pt-5">
-        <h2 class="text-captialize header-title wow fadeInLeft mt-5" data-wow-duration="2s">Phase 1</h2>
-    </div>
-    <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
-        <div class="row">
-            <div class="col-12">
-                <img src="images/roadmap/map-4.png" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="roadmap_sec" id="phase-2">
-    <div class="title_h2 text-center">
-        <h2 class="text-captialize header-title wow fadeInLeft" data-wow-duration="2s">Phase 2</h2>
-    </div>
-    <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
-        <div class="row">
-            <div class="col-12">
-                <img src="images/roadmap/map-2.png" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="roadmap_sec" id="phase-3">
-    <div class="title_h2 text-center">
-        <h2 class="text-captialize header-title wow fadeInLeft" data-wow-duration="2s">Phase 3</h2>
-    </div>
-    <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
-        <div class="row">
-            <div class="col-12">
-                <img src="images/roadmap/map-3.png" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="roadmap_sec" id="phase-4">
-    <div class="title_h2 text-center">
-        <h2 class="text-captialize header-title wow fadeInLeft" data-wow-duration="2s">Phase 4</h2>
-    </div>
-    <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
-        <div class="row">
-            <div class="col-12">
-                <img src="images/roadmap/map-1.png" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="roadmap_sec" id="mediverse">
-    <div class="title_h2 text-center">
-        <h2 class="text-captialize header-title wow fadeInLeft" data-wow-duration="2s">Mediverse</h2>
-    </div>
-    <div class="container mt-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
-        <div class="row">
-            <div class="col-12">
-                <img src="images/roadmap/map-5.png" class="img-fluid">
+<section class="roadmap_sec mt-5 pt-5 mb-5" id="phase-2">
+    <div class="container mt-5 pt-5 mb-5 wow fadeInRight" data-wow-duration="2s" style="border-radius: 15px">
+        <div class="row mt-5">
+            <div class="col-12 roadmap-image">
+                <div class="phase-section">
+                    <h2 class="mt-5 mx-5 phase-title">PHASE 2:</h2>
+                    <div class="phase-content mx-5 p-2">
+                        <h3 class="mt-3">
+                            <p style="border:1px solid black;padding: 20px;border-radius: 15px;background: white;color: black !important;margin: 15px;font-size: 20px">“METAPOLYCLINIC will introduce a new wave of medical services tailored for the Mediverse.</p>
+                        </h3>
+                        <div class="mt-5">
+                            <ul class="a">
+                                <li>DMPC (MetaPOLYCLINIC) Launched.</li>
+                                <li>Bulls Gone MAD Launched.</li>
+                                <li>MPC TOKEN Development.</li>
+                                <li>MPC Bursary Program ROADMAP.</li>
+                            </ul>
+                        </div>
+                        <div class="row pb-3 mt-5">
+                            <div class="col-lg-6">
+                                <div class="list-green">
+                                    <ul class="a">
+                                        <li>All MPC NFT Holders get airdropped 10% Share of full TOKEN supply.</li>
+                                        <li>Metapolyclinic exchange account.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 phase-2-picture">
+                                <img src="images/Picture2.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -321,7 +284,7 @@
             delay: 1,
         },
         loop: true,
-        slidesPerView:'auto',
+        slidesPerView: 'auto',
         allowTouchMove: false,
         disableOnInteraction: true
     });
@@ -336,7 +299,7 @@
         },
         loop: true,
         loopedSlides: 15,
-        slidesPerView:'auto',
+        slidesPerView: 'auto',
         allowTouchMove: false,
         disableOnInteraction: true
     });
@@ -367,6 +330,7 @@
     function hoverInBtn(value) {
         document.getElementById("roadmap").className = 'col-12 roadmap_image-' + value;
     }
+
     function hoverOutBtn() {
         document.getElementById("roadmap").className = 'col-12 roadmap_image';
     }
@@ -398,7 +362,7 @@
         }
     }
 
-    function menuClose(){
+    function menuClose() {
         document.getElementById("navbarSupportedContent").className = 'navbar main-menu collapse';
         document.getElementById("mobile-menu").className = 'navbar-toggle hamburger_menu';
     }
