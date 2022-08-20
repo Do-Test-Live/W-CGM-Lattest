@@ -181,6 +181,10 @@ a.btn {
     height: 390px;
 }
 
+#roadmap{
+    font-family: Screebie;
+}
+
 @media (max-width: 1600px) {
     .slick-next {
         right: 20%;
@@ -302,6 +306,7 @@ a.btn {
         background: url("../../images/roadmap/Map2.png") no-repeat;
         background-size: 100%;
         position: relative;
+        font-family: Screebie;
     }
     .mobile-roadmap-4{
         display: flex !important;
@@ -340,6 +345,14 @@ a.btn {
         height: 240px;
         width: 100%;
         background: url("../../images/roadmap/map-5.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    .mobile-roadmap-6{
+        display: flex !important;
+        height: 240px;
+        width: 100%;
+        background: url("../../images/roadmap/Stakin.png") no-repeat;
         background-size: 100%;
         position: relative;
     }
@@ -396,11 +409,18 @@ a.btn {
     background-size: cover;
     position: relative;
 }
+.roadmap_image-6{
+    height: 800px;
+    width: 100%;
+    background: url("../../images/roadmap/Stakin.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .roadmap-btn-p-4{
     position: absolute;
-    top: 20%;
-    left: 18%;
+    top: 28%;
+    left: 9%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
@@ -413,8 +433,21 @@ a.btn {
 
 .roadmap-btn-p-1{
     position: absolute;
-    top: 8%;
-    right: 4%;
+    top: 25%;
+    right: 16%;
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 15px 70px;
+    font-size: 25px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.roadmap-btn-p-7{
+    position: absolute;
+    top: 16%;
+    right: 37%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
@@ -470,13 +503,11 @@ a.btn {
 
 
 
-.roadmap-btn-p-1:hover,.roadmap-btn-p-2:hover,.roadmap-btn-p-3:hover,.roadmap-btn-p-4:hover,.roadmap-btn-medi:hover{
+.roadmap-btn-p-1:hover,.roadmap-btn-p-2:hover,.roadmap-btn-p-3:hover,.roadmap-btn-p-4:hover,.roadmap-btn-medi:hover, roadmap-btn-p-7:hover{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
-
 
 
 
@@ -548,8 +579,8 @@ a.btn {
 
 .roadmap-mobile-btn-p-1{
     position: absolute;
-    top: 5%;
-    right: 4%;
+    top: 8%;
+    right: 35%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -562,9 +593,8 @@ a.btn {
 
 .roadmap-mobile-btn-p-4{
     position: absolute;
-    top: 10%;
-    left: 15%;
-
+    top: 68%;
+    left: 69%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -576,8 +606,8 @@ a.btn {
 }
 .roadmap-mobile-btn-p-3{
     position: absolute;
-    right: 12%;
-    bottom: 36%;
+    right: 69%;
+    bottom: 13%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -589,8 +619,8 @@ a.btn {
 }
 .roadmap-mobile-btn-medi{
     position: absolute;
-    right: 44%;
-    bottom: 44%;
+    right: 33%;
+    bottom: 37%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -604,7 +634,20 @@ a.btn {
 .roadmap-mobile-btn-p-2{
     position: absolute;
     left: 6%;
-    bottom: 14%;
+    bottom: 75%;
+    background-color: #d2dcdc;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 11px;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.roadmap-mobile-btn-staking{
+    position: absolute;
+    left: 70%;
+    bottom: 65%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;

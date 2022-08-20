@@ -2736,6 +2736,7 @@
 
 @media (max-width: 991px) {
     .roadmap_sec {
+        font-family: 'Screebie';
         padding: 50px 0;
         margin-top: -45px;
         z-index: 1;
@@ -3168,7 +3169,7 @@
     padding: 50px 0 160px;
     position: relative;
     background: rgb(68, 129, 244);
-    background: linear-gradient(180deg, #f9e0c5 20%, rgb(255 207 153) 97%);
+    background: linear-gradient(180deg, #d0d9e2 20%, rgb(192 204 217) 97%);
     position: relative;
     z-index: 1;
 }
