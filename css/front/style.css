@@ -425,7 +425,6 @@ a.btn {
     border-radius: 15px;
     padding: 15px 70px;
     font-size: 25px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -439,7 +438,6 @@ a.btn {
     border-radius: 15px;
     padding: 15px 70px;
     font-size: 25px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -452,7 +450,6 @@ a.btn {
     border-radius: 15px;
     padding: 15px 70px;
     font-size: 25px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -460,13 +457,12 @@ a.btn {
 
 .roadmap-btn-p-2{
     position: absolute;
-    left: 6%;
+    left: 9%;
     bottom: 9%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
     font-size: 25px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -474,13 +470,12 @@ a.btn {
 
 .roadmap-btn-p-3{
     position: absolute;
-    right: 15%;
-    bottom: 18%;
+    right: 16%;
+    bottom: 9%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
     font-size: 25px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -488,13 +483,12 @@ a.btn {
 
 .roadmap-btn-medi{
     position: absolute;
-    right: 46%;
+    right: 37%;
     bottom: 28%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
     font-size: 25px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -585,7 +579,6 @@ a.btn {
     border-radius: 15px;
     padding: 6px 13px;
     font-size: 11px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -599,7 +592,6 @@ a.btn {
     border-radius: 15px;
     padding: 6px 13px;
     font-size: 11px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -612,7 +604,6 @@ a.btn {
     border-radius: 15px;
     padding: 6px 13px;
     font-size: 11px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -625,7 +616,6 @@ a.btn {
     border-radius: 15px;
     padding: 6px 13px;
     font-size: 11px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -639,7 +629,6 @@ a.btn {
     border-radius: 15px;
     padding: 6px 13px;
     font-size: 11px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -652,7 +641,6 @@ a.btn {
     border-radius: 15px;
     padding: 6px 13px;
     font-size: 11px;
-    border: 3px solid black;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -665,5 +653,8 @@ a.btn {
 @media screen and (max-width: 992px) {
     .header-section{
         margin-top: 0;
+    }
+    #header_social{
+        display: none;
     }
 }
