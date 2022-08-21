@@ -658,3 +658,12 @@ a.btn {
     font-weight: bold;
 }
 
+.header-section{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .header-section{
+        margin-top: 0;
+    }
+}
