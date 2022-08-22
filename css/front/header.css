@@ -168,6 +168,7 @@
         overflow-x: hidden;
         overflow-y: auto;
         padding-top: 0;
+        z-index: 99;
     }
 
     .header {
@@ -214,7 +215,7 @@
         display: block !important;
     }
 
-    .btn_menu .btn-white {
+    /*.btn_menu .btn-white {
         display: none !important;
-    }
+    }*/
 }

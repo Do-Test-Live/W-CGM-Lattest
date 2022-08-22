@@ -419,7 +419,7 @@ a.btn {
 
 .roadmap-btn-p-4{
     position: absolute;
-    top: 28%;
+    top: 22%;
     left: 9%;
     background-color: #d2dcdc;
     border-radius: 15px;
@@ -433,7 +433,7 @@ a.btn {
 .roadmap-btn-p-1{
     position: absolute;
     top: 25%;
-    right: 16%;
+    right: 11%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
@@ -470,7 +470,7 @@ a.btn {
 
 .roadmap-btn-p-3{
     position: absolute;
-    right: 16%;
+    right: 11%;
     bottom: 9%;
     background-color: #d2dcdc;
     border-radius: 15px;
@@ -484,7 +484,7 @@ a.btn {
 .roadmap-btn-medi{
     position: absolute;
     right: 37%;
-    bottom: 28%;
+    bottom: 32%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 15px 70px;
@@ -573,8 +573,8 @@ a.btn {
 
 .roadmap-mobile-btn-p-1{
     position: absolute;
-    top: 8%;
-    right: 35%;
+    top: 12%;
+    right: 37%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -586,8 +586,8 @@ a.btn {
 
 .roadmap-mobile-btn-p-4{
     position: absolute;
-    top: 68%;
-    left: 69%;
+    top: 80%;
+    left: 74%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -610,8 +610,8 @@ a.btn {
 }
 .roadmap-mobile-btn-medi{
     position: absolute;
-    right: 33%;
-    bottom: 37%;
+    right: 36%;
+    bottom: 31%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -624,7 +624,7 @@ a.btn {
 .roadmap-mobile-btn-p-2{
     position: absolute;
     left: 6%;
-    bottom: 75%;
+    bottom: 70%;
     background-color: #d2dcdc;
     border-radius: 15px;
     padding: 6px 13px;
@@ -635,7 +635,7 @@ a.btn {
 }
 .roadmap-mobile-btn-staking{
     position: absolute;
-    left: 70%;
+    left: 74%;
     bottom: 65%;
     background-color: #d2dcdc;
     border-radius: 15px;

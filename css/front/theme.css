@@ -284,10 +284,12 @@ input:-webkit-autofill:active {
     background: var(--white-color);
     color: var(--blur-color);
     clip-path: polygon(0% 0%, 100% 0, 100% 61%, 90% 100%, 0% 100%);
-    min-width: 180px;
+    min-width: 100px;
     font-weight: 600;
     padding: 8px 15px;
     text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Montserrat';
 }
 
 .btn-transparent {
